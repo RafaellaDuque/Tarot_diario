@@ -1,0 +1,470 @@
+[
+    {
+        "id": "0",
+        "nome": "O Louco",
+        "descricao": "Início, espontaneidade, fé e novos começos.",
+        "imagem": "0.png"
+      },
+      {
+        "id": "1",
+        "nome": "O Mago",
+        "descricao": "Manifestação, poder, ação e engenhosidade.",
+        "imagem": "1.png"
+      },
+      {
+        "id": "2",
+        "nome": "A Sacerdotisa",
+        "descricao": "Intuição, mistério e sabedoria interior.",
+        "imagem": "2.png"
+      },
+      {
+        "id": "3",
+        "nome": "A Imperatriz",
+        "descricao": "Feminilidade, beleza, natureza e abundância.",
+        "imagem": "3.png"
+      },
+      {
+        "id": "4",
+        "nome": "O Imperador",
+        "descricao": "Autoridade, estrutura, estabilidade e proteção.",
+        "imagem": "4.png"
+      },
+      {
+        "id": "5",
+        "nome": "O Hierofante",
+        "descricao": "Sabedoria espiritual, tradição e ética.",
+        "imagem": "5.png"
+      },
+      {
+        "id": "6",
+        "nome": "Os Amantes",
+        "descricao": "Amor, harmonia, relacionamentos e escolhas.",
+        "imagem": "6.png"
+      },
+      {
+        "id": "7",
+        "nome": "O Carro",
+        "descricao": "Controle, vontade, vitória e determinação.",
+        "imagem": "7.png"
+      },
+      {
+        "id": "8",
+        "nome": "A Força",
+        "descricao": "Coragem, persuasão e força interior.",
+        "imagem": "8.png"
+      },
+      {
+        "id": "9",
+        "nome": "O Eremita",
+        "descricao": "Busca da alma, introspecção e orientação.",
+        "imagem": "9.png"
+      },
+      {
+        "id": "10",
+        "nome": "A Roda da Fortuna",
+        "descricao": "Mudança, ciclos, destino e sorte.",
+        "imagem": "10.png"
+      },
+      {
+        "id": "11",
+        "nome": "A Justiça",
+        "descricao": "Equilíbrio, responsabilidade e causa e efeito.",
+        "imagem": "11.png"
+      },
+      {
+        "id": "12",
+        "nome": "O Pendurado",
+        "descricao": "Pausa, rendição e novas perspectivas.",
+        "imagem": "12.png"
+      },
+      {
+        "id": "13",
+        "nome": "A Morte",
+        "descricao": "Fim de ciclos, transformação e renascimento.",
+        "imagem": "13.png"
+      },
+      {
+        "id": "14",
+        "nome": "A Temperança",
+        "descricao": "Moderação, equilíbrio, paciência e propósito.",
+        "imagem": "14.png"
+      },
+      {
+        "id": "15",
+        "nome": "O Diabo",
+        "descricao": "Apego, vício e limitações autoimpostas.",
+        "imagem": "15.png"
+      },
+      {
+        "id": "16",
+        "nome": "A Torre",
+        "descricao": "Mudança repentina, revelação e despertar.",
+        "imagem": "16.png"
+      },
+      {
+        "id": "17",
+        "nome": "A Estrela",
+        "descricao": "Esperança, fé, rejuvenescimento e inspiração.",
+        "imagem": "17.png"
+      },
+      {
+        "id": "18",
+        "nome": "A Lua",
+        "descricao": "Ilusão, medo, ansiedade e intuição.",
+        "imagem": "18.png"
+      },
+      {
+        "id": "19",
+        "nome": "O Sol",
+        "descricao": "Positividade, vitalidade, alegria e sucesso.",
+        "imagem": "19.png"
+      },
+      {
+        "id": "20",
+        "nome": "O Julgamento",
+        "descricao": "Renovação, despertar e julgamento de si mesmo.",
+        "imagem": "20.png"
+      },
+      {
+        "id": "21",
+        "nome": "O Mundo",
+        "descricao": "Conclusão, integração e realização.",
+        "imagem": "21.png"
+      },
+    {
+      "id": "ás-copas",
+      "nome": "Ás de Copas",
+      "descricao": " ",
+      "imagem": "copas_as.png"
+    },
+    {
+      "id": "2-copas",
+      "nome": "2 de Copas",
+      "descricao": " ",
+      "imagem": "copas_2.png"
+    },
+    {
+      "id": "3-copas",
+      "nome": "3 de Copas",
+      "descricao": " ",
+      "imagem": "copas_3.png"
+    },
+    {
+      "id": "4-copas",
+      "nome": "4 de Copas",
+      "descricao": " ",
+      "imagem": "copas_4.png"
+    },
+    {
+      "id": "5-copas",
+      "nome": "5 de Copas",
+      "descricao": " ",
+      "imagem": "copas_5.png"
+    },
+    {
+      "id": "6-copas",
+      "nome": "6 de Copas",
+      "descricao": " ",
+      "imagem": "copas_6.png"
+    },
+    {
+      "id": "7-copas",
+      "nome": "7 de Copas",
+      "descricao": " ",
+      "imagem": "copas_7.png"
+    },
+    {
+      "id": "8-copas",
+      "nome": "8 de Copas",
+      "descricao": " ",
+      "imagem": "copas_8.png"
+    },
+    {
+      "id": "9-copas",
+      "nome": "9 de Copas",
+      "descricao": " ",
+      "imagem": "copas_9.png"
+    },
+    {
+      "id": "10-copas",
+      "nome": "10 de Copas",
+      "descricao": " ",
+      "imagem": "copas_10.png"
+    },
+    {
+      "id": "pajem-copas",
+      "nome": "Pajem de Copas",
+      "descricao": " ",
+      "imagem": "copas_pajem.png"
+    },
+    {
+      "id": "cavaleiro-copas",
+      "nome": "Cavaleiro de Copas",
+      "descricao": " ",
+      "imagem": "copas_cavaleiro.png"
+    },
+    {
+      "id": "rainha-copas",
+      "nome": "Rainha de Copas",
+      "descricao": " ",
+      "imagem": "copas_rainha.png"
+    },
+    {
+      "id": "rei-copas",
+      "nome": "Rei de Copas",
+      "descricao": " ",
+      "imagem": "copas_rei.png"
+    },
+    {
+      "id": "ás-ouros",
+      "nome": "Ás de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_as.png"
+    },
+    {
+      "id": "2-ouros",
+      "nome": "2 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_2.png"
+    },
+    {
+      "id": "3-ouros",
+      "nome": "3 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_3.png"
+    },
+    {
+      "id": "4-ouros",
+      "nome": "4 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_4.png"
+    },
+    {
+      "id": "5-ouros",
+      "nome": "5 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_5.png"
+    },
+    {
+      "id": "6-ouros",
+      "nome": "6 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_6.png"
+    },
+    {
+      "id": "7-ouros",
+      "nome": "7 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_7.png"
+    },
+    {
+      "id": "8-ouros",
+      "nome": "8 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_8.png"
+    },
+    {
+      "id": "9-ouros",
+      "nome": "9 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_9.png"
+    },
+    {
+      "id": "10-ouros",
+      "nome": "10 de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_10.png"
+    },
+    {
+      "id": "pajem-ouros",
+      "nome": "Pajem de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_pajem.png"
+    },
+    {
+      "id": "cavaleiro-ouros",
+      "nome": "Cavaleiro de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_cavaleiro.png"
+    },
+    {
+      "id": "rainha-ouros",
+      "nome": "Rainha de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_rainha.png"
+    },
+    {
+      "id": "rei-ouros",
+      "nome": "Rei de Ouros",
+      "descricao": " ",
+      "imagem": "ouros_rei.png"
+    },
+    {
+      "id": "ás-espadas",
+      "nome": "Ás de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_as.png"
+    },
+    {
+      "id": "2-espadas",
+      "nome": "2 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_2.png"
+    },
+    {
+      "id": "3-espadas",
+      "nome": "3 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_3.png"
+    },
+    {
+      "id": "4-espadas",
+      "nome": "4 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_4.png"
+    },
+    {
+      "id": "5-espadas",
+      "nome": "5 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_5.png"
+    },
+    {
+      "id": "6-espadas",
+      "nome": "6 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_6.png"
+    },
+    {
+      "id": "7-espadas",
+      "nome": "7 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_7.png"
+    },
+    {
+      "id": "8-espadas",
+      "nome": "8 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_8.png"
+    },
+    {
+      "id": "9-espadas",
+      "nome": "9 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_9.png"
+    },
+    {
+      "id": "10-espadas",
+      "nome": "10 de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_10.png"
+    },
+    {
+      "id": "pajem-espadas",
+      "nome": "Pajem de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_pajem.png"
+    },
+    {
+      "id": "cavaleiro-espadas",
+      "nome": "Cavaleiro de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_cavaleiro.png"
+    },
+    {
+      "id": "rainha-espadas",
+      "nome": "Rainha de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_rainha.png"
+    },
+    {
+      "id": "rei-espadas",
+      "nome": "Rei de Espadas",
+      "descricao": " ",
+      "imagem": "espadas_rei.png"
+    },
+    {
+      "id": "ás-paus",
+      "nome": "Ás de Paus",
+      "descricao": " ",
+      "imagem": "paus_as.png"
+    },
+    {
+      "id": "2-paus",
+      "nome": "2 de Paus",
+      "descricao": " ",
+      "imagem": "paus_2.png"
+    },
+    {
+      "id": "3-paus",
+      "nome": "3 de Paus",
+      "descricao": " ",
+      "imagem": "paus_3.png"
+    },
+    {
+      "id": "4-paus",
+      "nome": "4 de Paus",
+      "descricao": " ",
+      "imagem": "paus_4.png"
+    },
+    {
+      "id": "5-paus",
+      "nome": "5 de Paus",
+      "descricao": " ",
+      "imagem": "paus_5.png"
+    },
+    {
+      "id": "6-paus",
+      "nome": "6 de Paus",
+      "descricao": " ",
+      "imagem": "paus_6.png"
+    },
+    {
+      "id": "7-paus",
+      "nome": "7 de Paus",
+      "descricao": " ",
+      "imagem": "paus_7.png"
+    },
+    {
+      "id": "8-paus",
+      "nome": "8 de Paus",
+      "descricao": " ",
+      "imagem": "paus_8.png"
+    },
+    {
+      "id": "9-paus",
+      "nome": "9 de Paus",
+      "descricao": " ",
+      "imagem": "paus_9.png"
+    },
+    {
+      "id": "10-paus",
+      "nome": "10 de Paus",
+      "descricao": " ",
+      "imagem": "paus_10.png"
+    },
+    {
+      "id": "pajem-paus",
+      "nome": "Pajem de Paus",
+      "descricao": " ",
+      "imagem": "paus_pajem.png"
+    },
+    {
+      "id": "cavaleiro-paus",
+      "nome": "Cavaleiro de Paus",
+      "descricao": " ",
+      "imagem": "paus_cavaleiro.png"
+    },
+    {
+      "id": "rainha-paus",
+      "nome": "Rainha de Paus",
+      "descricao": " ",
+      "imagem": "paus_rainha.png"
+    },
+    {
+      "id": "rei-paus",
+      "nome": "Rei de Paus",
+      "descricao": " ",
+      "imagem": "paus_rei.png"
+    }
+  ]
