@@ -44,7 +44,7 @@ cardDeck.addEventListener("click", () => {
   cardResultDescription.classList.add("visible");
 
   cardResultNome.classList.add("visible");
-  cardResultImage.src = carta.imagem;
+  cardResultImage.src = `imagens/Deck/${carta.imagem}`;
   cardResultNome.textContent = carta.nome;
 
   if (btnReiniciar) btnReiniciar.classList.add("visible");
