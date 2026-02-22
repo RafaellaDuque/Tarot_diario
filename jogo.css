@@ -1,5 +1,14 @@
 /* PÁGINA DO JOGO */
 
+.page-inner .nav-links a,
+.page-inner .nav-links a:visited {
+  color: #2d3319;
+}
+
+.page-inner .logo span {
+  color: #2d3319;
+}
+
 body {
   min-height: 100vh;
 }

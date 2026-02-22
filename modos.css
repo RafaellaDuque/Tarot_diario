@@ -1,0 +1,108 @@
+/* PÁGINA DE ESCOLHA DE MODOS */
+
+.page-inner .nav-links a,
+.page-inner .nav-links a:visited {
+  color: #2d3319;
+}
+
+.page-inner .logo span {
+  color: #2d3319;
+}
+
+.modos-container {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modos-container h1 {
+  font-family: "Cinzel", serif;
+  color: #2d3319;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.modos-subtitle {
+  color: #5a5a5a;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.modos-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.modo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.modo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
+}
+
+.modo-card-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(45, 51, 25, 0.15);
+  border-radius: 50%;
+  font-family: "Cinzel", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3319;
+  margin-bottom: 1rem;
+}
+
+.modo-card h3 {
+  font-family: "Cinzel", serif;
+  color: #2d3319;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.modo-card p {
+  color: #2d3319;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.modo-card-cta {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  background: #2d3319;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.modo-card:hover .modo-card-cta {
+  background: #3d4329;
+}
+
+@media (max-width: 900px) {
+  .modos-cards {
+    grid-template-columns: 1fr;
+  }
+}

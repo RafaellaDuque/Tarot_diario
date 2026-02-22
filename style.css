@@ -97,6 +97,10 @@ header {
   font-weight: 600;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 /* HERO BACKGROUND (navbar + hero) */
 
 .hero-background {
