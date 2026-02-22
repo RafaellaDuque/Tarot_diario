@@ -57,7 +57,7 @@ const reiniciarJogo = function() {
   cartaRevelada = false;
   cardResultDescription.classList.remove("visible");
   cardResultNome.classList.remove("visible");
-  cardResultImage.src = "imagens/tarot-image.jpg";
+  cardResultImage.src = "imagens/carta_tarot_placeholder.jpg";
   btnReiniciar.classList.remove("visible");
 }
 

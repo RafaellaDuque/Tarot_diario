@@ -1,470 +1,80 @@
 [
-    {
-        "id": "0",
-        "nome": "O Louco",
-        "descricao": "Início, espontaneidade, fé e novos começos.",
-        "imagem": "00-TheFool.png"
-      },
-      {
-        "id": "1",
-        "nome": "O Mago",
-        "descricao": "Manifestação, poder, ação e engenhosidade.",
-        "imagem": "01-TheMagician.png"
-      },
-      {
-        "id": "2",
-        "nome": "A Sacerdotisa",
-        "descricao": "Intuição, mistério e sabedoria interior.",
-        "imagem": "02-TheHighPriestess.png"
-      },
-      {
-        "id": "3",
-        "nome": "A Imperatriz",
-        "descricao": "Feminilidade, beleza, natureza e abundância.",
-        "imagem": "03-TheEmpress.png"
-      },
-      {
-        "id": "4",
-        "nome": "O Imperador",
-        "descricao": "Autoridade, estrutura, estabilidade e proteção.",
-        "imagem": "04-TheEmperor.png"
-      },
-      {
-        "id": "5",
-        "nome": "O Hierofante",
-        "descricao": "Sabedoria espiritual, tradição e ética.",
-        "imagem": "05-TheHierophant.png"
-      },
-      {
-        "id": "6",
-        "nome": "Os Amantes",
-        "descricao": "Amor, harmonia, relacionamentos e escolhas.",
-        "imagem": "06-TheLovers.png"
-      },
-      {
-        "id": "7",
-        "nome": "O Carro",
-        "descricao": "Controle, vontade, vitória e determinação.",
-        "imagem": "07-TheChariot.png"
-      },
-      {
-        "id": "8",
-        "nome": "A Força",
-        "descricao": "Coragem, persuasão e força interior.",
-        "imagem": "08-Strength.png"
-      },
-      {
-        "id": "9",
-        "nome": "O Eremita",
-        "descricao": "Busca da alma, introspecção e orientação.",
-        "imagem": "09-TheHermit.png"
-      },
-      {
-        "id": "10",
-        "nome": "A Roda da Fortuna",
-        "descricao": "Mudança, ciclos, destino e sorte.",
-        "imagem": "10-WheelOfFortune.png"
-      },
-      {
-        "id": "11",
-        "nome": "A Justiça",
-        "descricao": "Equilíbrio, responsabilidade e causa e efeito.",
-        "imagem": "11-Justice.png"
-      },
-      {
-        "id": "12",
-        "nome": "O Pendurado",
-        "descricao": "Pausa, rendição e novas perspectivas.",
-        "imagem": "12-TheHangedMan.png"
-      },
-      {
-        "id": "13",
-        "nome": "A Morte",
-        "descricao": "Fim de ciclos, transformação e renascimento.",
-        "imagem": "13-Death.png"
-      },
-      {
-        "id": "14",
-        "nome": "A Temperança",
-        "descricao": "Moderação, equilíbrio, paciência e propósito.",
-        "imagem": "14-Temperance.png"
-      },
-      {
-        "id": "15",
-        "nome": "O Diabo",
-        "descricao": "Apego, vício e limitações autoimpostas.",
-        "imagem": "15-TheDevil.png"
-      },
-      {
-        "id": "16",
-        "nome": "A Torre",
-        "descricao": "Mudança repentina, revelação e despertar.",
-        "imagem": "16-TheTower.png"
-      },
-      {
-        "id": "17",
-        "nome": "A Estrela",
-        "descricao": "Esperança, fé, rejuvenescimento e inspiração.",
-        "imagem": "17-TheStar.png"
-      },
-      {
-        "id": "18",
-        "nome": "A Lua",
-        "descricao": "Ilusão, medo, ansiedade e intuição.",
-        "imagem": "18-TheMoon.png"
-      },
-      {
-        "id": "19",
-        "nome": "O Sol",
-        "descricao": "Positividade, vitalidade, alegria e sucesso.",
-        "imagem": "19-TheSun.png"
-      },
-      {
-        "id": "20",
-        "nome": "O Julgamento",
-        "descricao": "Renovação, despertar e julgamento de si mesmo.",
-        "imagem": "20-Judgement.png"
-      },
-      {
-        "id": "21",
-        "nome": "O Mundo",
-        "descricao": "Conclusão, integração e realização.",
-        "imagem": "21-TheWorld.png"
-      },
-    {
-      "id": "ás-copas",
-      "nome": "Ás de Copas",
-      "descricao": " ",
-      "imagem": "Cups01.png"
-    },
-    {
-      "id": "2-copas",
-      "nome": "2 de Copas",
-      "descricao": " ",
-      "imagem": "Cups02.png"
-    },
-    {
-      "id": "3-copas",
-      "nome": "3 de Copas",
-      "descricao": " ",
-      "imagem": "Cups03.png"
-    },
-    {
-      "id": "4-copas",
-      "nome": "4 de Copas",
-      "descricao": " ",
-      "imagem": "Cups04.png"
-    },
-    {
-      "id": "5-copas",
-      "nome": "5 de Copas",
-      "descricao": " ",
-      "imagem": "Cups05.png"
-    },
-    {
-      "id": "6-copas",
-      "nome": "6 de Copas",
-      "descricao": " ",
-      "imagem": "Cups06.png"
-    },
-    {
-      "id": "7-copas",
-      "nome": "7 de Copas",
-      "descricao": " ",
-      "imagem": "Cups07.png"
-    },
-    {
-      "id": "8-copas",
-      "nome": "8 de Copas",
-      "descricao": " ",
-      "imagem": "Cups08.png"
-    },
-    {
-      "id": "9-copas",
-      "nome": "9 de Copas",
-      "descricao": " ",
-      "imagem": "Cups09.png"
-    },
-    {
-      "id": "10-copas",
-      "nome": "10 de Copas",
-      "descricao": " ",
-      "imagem": "Cups10.png"
-    },
-    {
-      "id": "pajem-copas",
-      "nome": "Pajem de Copas",
-      "descricao": " ",
-      "imagem": "Cups11.png"
-    },
-    {
-      "id": "cavaleiro-copas",
-      "nome": "Cavaleiro de Copas",
-      "descricao": " ",
-      "imagem": "Cups12.png"
-    },
-    {
-      "id": "rainha-copas",
-      "nome": "Rainha de Copas",
-      "descricao": " ",
-      "imagem": "Cups13.png"
-    },
-    {
-      "id": "rei-copas",
-      "nome": "Rei de Copas",
-      "descricao": " ",
-      "imagem": "Cups14.png"
-    },
-    {
-      "id": "ás-ouros",
-      "nome": "Ás de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles01.png"
-    },
-    {
-      "id": "2-ouros",
-      "nome": "2 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles02.png"
-    },
-    {
-      "id": "3-ouros",
-      "nome": "3 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles03.png"
-    },
-    {
-      "id": "4-ouros",
-      "nome": "4 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles04.png"
-    },
-    {
-      "id": "5-ouros",
-      "nome": "5 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles05.png"
-    },
-    {
-      "id": "6-ouros",
-      "nome": "6 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles06.png"
-    },
-    {
-      "id": "7-ouros",
-      "nome": "7 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles07.png"
-    },
-    {
-      "id": "8-ouros",
-      "nome": "8 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles08.png"
-    },
-    {
-      "id": "9-ouros",
-      "nome": "9 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles09.png"
-    },
-    {
-      "id": "10-ouros",
-      "nome": "10 de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles10.png"
-    },
-    {
-      "id": "pajem-ouros",
-      "nome": "Pajem de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles11.png"
-    },
-    {
-      "id": "cavaleiro-ouros",
-      "nome": "Cavaleiro de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles12.png"
-    },
-    {
-      "id": "rainha-ouros",
-      "nome": "Rainha de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles13.png"
-    },
-    {
-      "id": "rei-ouros",
-      "nome": "Rei de Ouros",
-      "descricao": " ",
-      "imagem": "Pentacles14.png"
-    },
-    {
-      "id": "ás-espadas",
-      "nome": "Ás de Espadas",
-      "descricao": " ",
-      "imagem": "Swords01.png"
-    },
-    {
-      "id": "2-espadas",
-      "nome": "2 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords02.png"
-    },
-    {
-      "id": "3-espadas",
-      "nome": "3 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords03.png"
-    },
-    {
-      "id": "4-espadas",
-      "nome": "4 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords04.png"
-    },
-    {
-      "id": "5-espadas",
-      "nome": "5 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords05.png"
-    },
-    {
-      "id": "6-espadas",
-      "nome": "6 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords06.png"
-    },
-    {
-      "id": "7-espadas",
-      "nome": "7 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords07.png"
-    },
-    {
-      "id": "8-espadas",
-      "nome": "8 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords08.png"
-    },
-    {
-      "id": "9-espadas",
-      "nome": "9 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords09.png"
-    },
-    {
-      "id": "10-espadas",
-      "nome": "10 de Espadas",
-      "descricao": " ",
-      "imagem": "Swords10.png"
-    },
-    {
-      "id": "pajem-espadas",
-      "nome": "Pajem de Espadas",
-      "descricao": " ",
-      "imagem": "Swords11.png"
-    },
-    {
-      "id": "cavaleiro-espadas",
-      "nome": "Cavaleiro de Espadas",
-      "descricao": " ",
-      "imagem": "Swords12.png"
-    },
-    {
-      "id": "rainha-espadas",
-      "nome": "Rainha de Espadas",
-      "descricao": " ",
-      "imagem": "Swords13.png"
-    },
-    {
-      "id": "rei-espadas",
-      "nome": "Rei de Espadas",
-      "descricao": " ",
-      "imagem": "Swords14.png"
-    },
-    {
-      "id": "ás-paus",
-      "nome": "Ás de Paus",
-      "descricao": " ",
-      "imagem": "Wands01.png"
-    },
-    {
-      "id": "2-paus",
-      "nome": "2 de Paus",
-      "descricao": " ",
-      "imagem": "Wands02.png"
-    },
-    {
-      "id": "3-paus",
-      "nome": "3 de Paus",
-      "descricao": " ",
-      "imagem": "Wands03.png"
-    },
-    {
-      "id": "4-paus",
-      "nome": "4 de Paus",
-      "descricao": " ",
-      "imagem": "Wands04.png"
-    },
-    {
-      "id": "5-paus",
-      "nome": "5 de Paus",
-      "descricao": " ",
-      "imagem": "Wands05.png"
-    },
-    {
-      "id": "6-paus",
-      "nome": "6 de Paus",
-      "descricao": " ",
-      "imagem": "Wands06.png"
-    },
-    {
-      "id": "7-paus",
-      "nome": "7 de Paus",
-      "descricao": " ",
-      "imagem": "Wands07.png"
-    },
-    {
-      "id": "8-paus",
-      "nome": "8 de Paus",
-      "descricao": " ",
-      "imagem": "Wands08.png"
-    },
-    {
-      "id": "9-paus",
-      "nome": "9 de Paus",
-      "descricao": " ",
-      "imagem": "Wands09.png"
-    },
-    {
-      "id": "10-paus",
-      "nome": "10 de Paus",
-      "descricao": " ",
-      "imagem": "Wands10.png"
-    },
-    {
-      "id": "pajem-paus",
-      "nome": "Pajem de Paus",
-      "descricao": " ",
-      "imagem": "Wands11.png"
-    },
-    {
-      "id": "cavaleiro-paus",
-      "nome": "Cavaleiro de Paus",
-      "descricao": " ",
-      "imagem": "Wands12.png"
-    },
-    {
-      "id": "rainha-paus",
-      "nome": "Rainha de Paus",
-      "descricao": " ",
-      "imagem": "Wands13.png"
-    },
-    {
-      "id": "rei-paus",
-      "nome": "Rei de Paus",
-      "descricao": " ",
-      "imagem": "Wands14.png"
-    }
-  ]
+  {"id":"0","nome":"O Louco","descricao":"Significado: O Louco é o arquétipo do inocente que inicia a jornada da vida com fé absoluta. Representa novos começos, espontaneidade, liberdade e a coragem de dar o primeiro passo no desconhecido. Simbolicamente, o número zero indica potencial puro — tudo e nada ao mesmo tempo. Em termos práticos: pode indicar que você está prestes a iniciar algo novo, uma viagem, mudança de vida ou decisão que exige confiança cega. No amor, sugere relacionamentos que começam com entusiasmo. No trabalho, novas oportunidades ou projetos criativos. Na espiritualidade, a fé que precede a compreensão. Cuidado: a inocência pode levar à imprudência. Hoje: confie no processo. Sua espontaneidade e disposição para arriscar são seus maiores aliados. O universo apoia quem ousa começar.","imagem":"00-TheFool.png"},
+  {"id":"1","nome":"O Mago","descricao":"Significado: O Mago personifica o poder da vontade consciente e a capacidade de manifestar ideias na realidade. Ele domina os quatro elementos (fogo, água, ar, terra) e canaliza energia do céu para a terra. Representa habilidade, criatividade aplicada, comunicação eficaz e o uso prático do conhecimento. Em termos práticos: você tem todos os recursos necessários para realizar seus objetivos. A carta fala de autoconfiança, iniciativa e a capacidade de convencer ou influenciar. No amor, atração e charme. No trabalho, projetos que decolam com sua ação. Na saúde, vitalidade e poder de cura. O Mago lembra que pensamento + ação = manifestação. Hoje: aja com intenção. Suas palavras e gestos têm poder. O que você projeta, você atrai.","imagem":"01-TheMagician.png"},
+  {"id":"2","nome":"A Sacerdotisa","descricao":"Significado: A Sacerdotisa é a guardiã dos mistérios e da sabedoria interior. Representa intuição, subconsciente, segredos e conhecimento que não pode ser ensinado — apenas intuído. Ela está entre dois mundos: o visível e o oculto. Em termos práticos: algo está oculto ou não revelado. Pode ser um segredo, uma resposta que virá em sonhos, ou uma situação que exige paciência antes de se desdobrar. No amor, conexão espiritual ou atração misteriosa. No trabalho, projetos em fase de gestação. Na espiritualidade, desenvolvimento psíquico. A carta pede que você escute mais e fale menos. Confie no que sente, mesmo sem provas. Hoje: a sabedoria vem do silêncio. Medite, observe, espere. A resposta chegará quando você estiver receptivo.","imagem":"02-TheHighPriestess.png"},
+  {"id":"3","nome":"A Imperatriz","descricao":"Significado: A Imperatriz é a mãe universal, a fertilidade em todas as suas formas. Representa abundância, beleza, criatividade, nutrição e a força geradora da natureza. É a carta da manifestação material através da generosidade e do cuidado. Em termos práticos: período de crescimento, prosperidade e realização criativa. Pode indicar gravidez, colheita de projetos, ou simplesmente um momento de desfrutar os prazeres da vida. No amor, romance florescendo e conexão sensual. No trabalho, projetos que frutificam. Na saúde, vitalidade e bem-estar. A Imperatriz ensina que dar e receber são um ciclo. Hoje: nutra-se e nutra outros. Permita-se o prazer e a beleza. A abundância flui quando você abre o coração.","imagem":"03-TheEmpress.png"},
+  {"id":"4","nome":"O Imperador","descricao":"Significado: O Imperador representa estrutura, autoridade, ordem e proteção. É o arquétipo do pai, do líder, do que estabelece limites e garante segurança. Simboliza disciplina, organização e o uso do poder para criar estabilidade. Em termos práticos: momento de assumir controle, estabelecer regras ou buscar figuras de autoridade. Pode indicar necessidade de mais organização na vida, ou que você deve ser aquele que lidera. No amor, compromisso e estabilidade. No trabalho, posição de comando ou parceria com autoridades. Na família, o papel do provedor. O Imperador lembra que sem estrutura, o caos reina. Hoje: estabeleça limites claros. Sua capacidade de organizar e proteger é necessária. Autoridade com sabedoria traz respeito.","imagem":"04-TheEmperor.png"},
+  {"id":"5","nome":"O Hierofante","descricao":"Significado: O Hierofante é o guardião da tradição, dos ensinamentos consagrados e dos valores compartilhados por uma comunidade. Representa espiritualidade institucionalizada, mentores, educação formal e a sabedoria que vem de fontes estabelecidas. Em termos práticos: busque orientação em professores, livros, tradições ou instituições. Pode indicar casamento, formatura, iniciação em um grupo ou adoção de um sistema de crenças. No amor, compromisso tradicional ou relacionamento aprovado socialmente. No trabalho, seguir protocolos ou aprender com experientes. O Hierofante não é sobre rebeldia — é sobre honrar o que funcionou. Hoje: há sabedoria em fontes consagradas. Um mentor ou tradição pode guiá-lo. A ética compartilhada fortalece.","imagem":"05-TheHierophant.png"},
+  {"id":"6","nome":"Os Amantes","descricao":"Significado: Os Amantes representam escolha, união e harmonia entre opostos. A carta evoca o momento da decisão entre dois caminhos, geralmente envolvendo valores do coração versus razão. É também a carta do amor romântico, parcerias e conexões profundas. Em termos práticos: uma escolha importante se apresenta, muitas vezes entre o que você deseja e o que é correto, ou entre duas pessoas/oportunidades. No amor, união, atração forte ou decisão sobre um relacionamento. No trabalho, parcerias ou escolhas de carreira. Os Amantes lembram que toda escolha implica renúncia — e que o amor, em suas muitas formas, é o critério mais alto. Hoje: escute o coração, mas não ignore a razão. A decisão certa alinha ambos.","imagem":"06-TheLovers.png"},
+  {"id":"7","nome":"O Carro","descricao":"Significado: O Carro representa vitória através da vontade. É a conquista dos impulsos conflitantes, o domínio sobre as forças que puxam em direções opostas. Simboliza determinação, controle, triunfo e movimento em direção a um objetivo. Em termos práticos: você tem a força para vencer obstáculos. A carta fala de competição, viagens, mudanças de endereço ou superação de desafios. No amor, paixão controlada ou conquista. No trabalho, projetos que avançam com esforço. O Carro exige que você mantenha as rédeas — a vitória depende de não perder o controle. Cuidado com a arrogância. Hoje: avance com confiança. Sua vontade é forte. O que você quer está ao alcance se você não desistir.","imagem":"07-TheChariot.png"},
+  {"id":"8","nome":"A Força","descricao":"Significado: A Força representa o poder da gentileza sobre a brutalidade. É a coragem que vem da compaixão, a capacidade de domar impulsos sem destruí-los. O leão simboliza paixões, medos e instintos; a figura que o acalma mostra que a verdadeira força está na paciência e no amor. Em termos práticos: você enfrenta uma situação que exige autocontrole. Pode ser um conflito interno, uma pessoa difícil ou um vício. A Força diz que você pode superar sem violência. No amor, relacionamentos que exigem paciência. Na saúde, recuperação através da calma. A carta ensina que a força bruta falha; a suavidade vence. Hoje: domar não é destruir. Sua paciência e compaixão são mais poderosas que a raiva.","imagem":"08-Strength.png"},
+  {"id":"9","nome":"O Eremita","descricao":"Significado: O Eremita representa a busca interior, a sabedoria que vem da solidão voluntária e da introspecção. Ele carrega uma lanterna — a luz que ilumina o caminho na escuridão — e busca respostas dentro de si. Em termos práticos: momento de pausa, retiro ou reflexão profunda. Pode indicar necessidade de solidão para encontrar clareza, ou a chegada de um mentor que vem de longe. No amor, período de avaliação ou distância saudável. No trabalho, pausa para replanejar. O Eremita não é fuga — é busca consciente. A resposta está dentro de você; o silêncio a revela. Hoje: faça uma pausa. A sabedoria não vem do barulho. Busque orientação na quietude.","imagem":"09-TheHermit.png"},
+  {"id":"10","nome":"A Roda da Fortuna","descricao":"Significado: A Roda da Fortuna simboliza os ciclos inevitáveis da vida — o que sobe desce, o que desce sobe. Representa mudança, destino, sorte e a natureza cíclica de todas as coisas. Não há controle total; há adaptação. Em termos práticos: mudanças significativas estão em curso. Pode ser sorte boa ou má, dependendo do momento do ciclo. A carta fala de viradas de jogo, eventos inesperados e a necessidade de aceitar o fluxo. No amor, relacionamentos que mudam de fase. No trabalho, promoções, demissões ou reestruturações. A Roda lembra que nada é permanente. Hoje: aceite a mudança. O que sobe desce e vice-versa. Adapte-se com sabedoria; resistir dói mais.","imagem":"10-WheelOfFortune.png"},
+  {"id":"11","nome":"A Justiça","descricao":"Significado: A Justiça representa equilíbrio, verdade, causa e efeito. A espada corta a ilusão; a balança pesa ações e consequências. É a carta do karma, da honestidade e das decisões que precisam ser tomadas com imparcialidade. Em termos práticos: suas ações têm consequências que se manifestam agora. Pode indicar processos legais, decisões importantes ou o retorno de algo que você plantou. No amor, equilíbrio em relacionamentos ou decisões sobre compromissos. No trabalho, avaliações justas ou negociações. A Justiça não castiga — ela equilibra. O que você dá, recebe. Hoje: busque honestidade consigo e com outros. Decisões justas trazem paz. A verdade liberta.","imagem":"11-Justice.png"},
+  {"id":"12","nome":"O Pendurado","descricao":"Significado: O Pendurado representa rendição voluntária e mudança de perspectiva. Pendurado de cabeça para baixo, ele vê o mundo de forma invertida — e essa nova visão é iluminação. A carta fala de sacrifício consciente, pausa forçada e a sabedoria que vem quando paramos de lutar. Em termos práticos: você pode estar em uma situação de espera ou impasse. A solução não é forçar, mas soltar. Pode indicar que você precisa ver as coisas de outro ângulo. No amor, período de reflexão ou sacrifício por um bem maior. No trabalho, projetos pausados que amadurecem. O Pendurado ensina que às vezes parar é avançar. Hoje: mude a perspectiva. O que parece perda pode ser ganho. Rendição consciente traz insight.","imagem":"12-TheHangedMan.png"},
+  {"id":"13","nome":"A Morte","descricao":"Significado: A Morte não anuncia fim literal, mas transformação radical e inevitável. Representa o fim de ciclos, a destruição do que não serve mais e o renascimento que vem depois. A rosa na bandeira simboliza que a vida persiste através da mudança. Em termos práticos: algo em sua vida está chegando ao fim para dar espaço ao novo. Pode ser um emprego, relacionamento, fase ou identidade. A resistência prolonga o sofrimento; a aceitação acelera a cura. No amor, fim de um capítulo ou transformação profunda. No trabalho, reestruturação ou mudança de carreira. A Morte é libertadora quando aceita. Hoje: deixe ir o que não serve. O fim é o começo. Transformação é renascimento.","imagem":"13-Death.png"},
+  {"id":"14","nome":"A Temperança","descricao":"Significado: A Temperança representa moderação, equilíbrio e a arte de misturar opostos. O anjo derrama água entre dois cálices — nem demais, nem de menos. É a carta da paciência, da cura gradual e do caminho do meio. Em termos práticos: evite extremos. A solução está na mistura harmoniosa, não na escolha entre um ou outro. Pode indicar processos de cura, alquimia pessoal ou a necessidade de esperar o momento certo. No amor, relacionamentos equilibrados. Na saúde, recuperação através da moderação. A Temperança lembra que cada gota no momento certo cria o elixir. Hoje: moderação e paciência. Misture os extremos com sabedoria. O caminho do meio traz paz.","imagem":"14-Temperance.png"},
+  {"id":"15","nome":"O Diabo","descricao":"Significado: O Diabo representa apegos, vícios, ilusões e as correntes que criamos para nós mesmos. As figuras acorrentadas têm correntes soltas — podem se libertar, mas não o fazem. A carta fala de materialismo excessivo, dependências e padrões que nos prendem. Em termos práticos: examine o que o prende. Pode ser um relacionamento tóxico, trabalho que consome, vício ou crença limitante. O Diabo não é um ser externo — é a sombra que alimentamos. Reconhecer as correntes é o primeiro passo. No amor, relacionamentos baseados em dependência. No trabalho, ambição que escraviza. A liberdade está em perceber que as correntes são autoimpostas. Hoje: o que o prende? Reconhecer é o primeiro passo para soltar.","imagem":"15-TheDevil.png"},
+  {"id":"16","nome":"A Torre","descricao":"Significado: A Torre representa revelação abrupta que derruba estruturas falsas. Um raio atinge o que parecia sólido — crenças, ego, segurança ilusória. A destruição é violenta mas necessária; o que cai precisava cair. Em termos práticos: mudanças repentinas e dramáticas. Pode ser demissão, fim de relacionamento, descoberta chocante ou crise que força uma reconstrução. A Torre não é punição — é despertar. O que era frágil não resistiu à verdade. No amor, revelações que mudam tudo. No trabalho, projetos que desmoronam. Da destruição nasce clareza. Hoje: o que cai precisava cair. Aceite o despertar. Reconstrua com bases verdadeiras.","imagem":"16-TheTower.png"},
+  {"id":"17","nome":"A Estrela","descricao":"Significado: A Estrela é esperança, fé e renovação após a tempestade. Representa a luz que guia na escuridão, a cura através da vulnerabilidade e a conexão com algo maior. A figura derrama água — nutre a terra e o rio — em gesto de generosidade. Em termos práticos: período de recuperação e renovação. A esperança retorna. Pode indicar inspiração criativa, conexão espiritual ou simplesmente a sensação de que o pior passou. No amor, renovação de fé no relacionamento. Na saúde, recuperação. A Estrela lembra que a noite mais escura precede a estrela. Hoje: mantenha a fé. A esperança ilumina o caminho. Sua generosidade e abertura trazem cura.","imagem":"17-TheStar.png"},
+  {"id":"18","nome":"A Lua","descricao":"Significado: A Lua governa o reino do inconsciente, dos sonhos, medos e ilusões. O caminho entre o cão e o lobo é incerto; a lua distorce a percepção. A carta fala de intuição profunda, mas também de ansiedade, confusão e o que está escondido. Em termos práticos: nem tudo é como parece. Pode haver enganos, informações ocultas ou medos que distorcem a realidade. A intuição pode estar certa — ou pode ser paranoia. No amor, dúvidas ou atração misteriosa. No trabalho, situações nebulosas. A Lua pede que você questione o que vê e confie na intuição com cautela. Hoje: nem tudo é como parece. Medos podem distorcer. Confie na intuição, mas verifique os fatos.","imagem":"18-TheMoon.png"},
+  {"id":"19","nome":"O Sol","descricao":"Significado: O Sol é vitalidade, alegria, sucesso e realização. Representa a luz que dissipa as sombras, a saúde, a criança interior livre e o triunfo após a jornada. É a carta mais positiva do tarot. Em termos práticos: período de prosperidade, reconhecimento e bem-estar. A positividade prevalece. Pode indicar sucesso em projetos, saúde recuperada, nascimentos ou simplesmente dias de luz. No amor, felicidade e conexão alegre. No trabalho, reconhecimento e conquistas. O Sol lembra que a luz existe e que você merece brilhar. Hoje: celebre a vida. A positividade está ao seu alcance. Brilhe sem medo.","imagem":"19-TheSun.png"},
+  {"id":"20","nome":"O Julgamento","descricao":"Significado: O Julgamento é o despertar e o chamado à renovação. A trombeta convoca as figuras a emergir — é tempo de renascer, de responder ao chamado interior. Representa reflexão sobre o passado, perdão e o momento de assumir quem se é. Em termos práticos: um despertar ou chamado está acontecendo. Pode ser reconexão com propósito, reconciliação ou decisão de viver de forma mais autêntica. O julgamento não é condenação — é reconhecimento. No amor, renovação de votos ou perdão. Na espiritualidade, despertar. Hoje: responda ao chamado. É tempo de renascer. Reconheça quem você é e viva a partir disso.","imagem":"20-Judgement.png"},
+  {"id":"21","nome":"O Mundo","descricao":"Significado: O Mundo é a conclusão perfeita do ciclo dos arcanos. Representa realização total, integração dos quatro elementos e a sensação de wholeness. A figura dança dentro da coroa de louros — a vitória está completa. Em termos práticos: um ciclo importante se encerra com sucesso. Você chegou. Pode indicar formatura, conclusão de projeto, viagem realizada ou simplesmente a sensação de estar completo. No amor, relacionamento que atinge maturidade. No trabalho, meta alcançada. O Mundo lembra que toda conclusão é também um novo começo. Hoje: celebre. Um ciclo se completa. Você chegou. Prepare-se para o próximo.","imagem":"21-TheWorld.png"},
+  {"id":"ás-copas","nome":"Ás de Copas","descricao":"Significado: O Ás de Copas é o início de uma nova onda emocional ou espiritual. O cálice transbordando representa amor, intuição, criatividade e abertura do coração. É a semente do sentimento puro. Em termos práticos: uma nova conexão emocional, projeto criativo ou insight espiritual pode surgir. O coração se abre para receber e dar. No amor, novo romance ou renovação de sentimentos. Na espiritualidade, despertar do coração. A carta pede que você permita que as emoções fluam. Hoje: abra o coração. Amor, intuição e criatividade brotam. Receba e dê com generosidade.","imagem":"Cups01.png"},
+  {"id":"2-copas","nome":"2 de Copas","descricao":"Significado: O Dois de Copas representa parceria, união e equilíbrio entre duas pessoas ou duas partes de si. O caduceu com serpentes entrelaçadas simboliza a alquimia da conexão. É a carta do encontro harmonioso. Em termos práticos: parcerias, acordos ou reconciliações. Pode indicar um encontro significativo, colaboração que flui ou a união de opostos. No amor, relacionamento equilibrado ou nova parceria romântica. No trabalho, colaboração produtiva. O Dois de Copas lembra que o amor flui quando há troca equilibrada. Hoje: parcerias harmoniosas. Um encontro ou reconciliação pode ocorrer. O equilíbrio na troca fortalece.","imagem":"Cups02.png"},
+  {"id":"3-copas","nome":"3 de Copas","descricao":"Significado: O Três de Copas é a celebração compartilhada. Representa amizade, comunidade, alegria coletiva e a colheita emocional. As três figuras erguem os cálices em festa. Em termos práticos: momentos de alegria com outros, reconhecimento em grupo ou celebração de conquistas. Pode indicar festas, reuniões, colaborações que dão certo. No amor, amizade que nutre ou romance em ambiente social. No trabalho, equipe que celebra juntos. O sucesso é mais doce quando compartilhado. Hoje: celebre com outros. Amizade, colaboração e alegria. O coração se enche na companhia certa.","imagem":"Cups03.png"},
+  {"id":"4-copas","nome":"4 de Copas","descricao":"Significado: O Quatro de Copas representa introspecção, apatia ou recusa. A figura sentada ignora o cálice oferecido — pode estar em meditação profunda ou fechada para novas ofertas. É a carta da pausa emocional. Em termos práticos: momento de reflexão interior. Pode haver tédio, necessidade de solidão ou recusa de algo que não ressoa. No amor, período de avaliação ou distância. No trabalho, falta de motivação. A carta pergunta: o que você rejeita? O que não está vendo? Às vezes a oferta é valiosa. Hoje: avalie o que já tem. Uma pausa pode ser necessária. Mas esteja aberto ao que surge.","imagem":"Cups04.png"},
+  {"id":"5-copas","nome":"5 de Copas","descricao":"Significado: O Cinco de Copas é a carta da perda e do luto. A figura foca nos três cálices derramados e ignora os dois intactos atrás. Representa tristeza, decepção e a tendência a ver apenas o que foi perdido. Em termos práticos: houve uma perda — relacionamento, oportunidade, esperança. A dor é real, mas a carta lembra que nem tudo foi perdido. Dois cálices permanecem. No amor, término ou decepção. No trabalho, projeto que não deu certo. A ponte ao fundo indica que há caminho à frente. Hoje: reconheça a perda. Lamente o necessário. Mas não ignore o que permanece. A esperança ainda existe.","imagem":"Cups05.png"},
+  {"id":"6-copas","nome":"6 de Copas","descricao":"Significado: O Seis de Copas representa nostalgia, memórias felizes e conexão com o passado. As crianças trocando flores evocam inocência e gratidão. É a carta dos reencontros e da reconciliação com o que foi. Em termos práticos: reencontros, recordações agradáveis ou reconciliação com pessoas ou momentos do passado. Pode indicar que o passado influencia o presente de forma positiva. No amor, reacender antiga chama ou gratidão por relacionamentos. A inocência e a gratidão curam. Hoje: recordações agradáveis podem surgir. Reencontros ou reconciliação com o passado. A gratidão nutre o coração.","imagem":"Cups06.png"},
+  {"id":"7-copas","nome":"7 de Copas","descricao":"Significado: O Sete de Copas representa ilusão, fantasias e escolhas baseadas em aparências. Os sete cálices mostram visões diferentes — nem todas reais. É a carta do escapismo e da confusão entre sonho e realidade. Em termos práticos: cuidado com ilusões. Pode haver ofertas tentadoras que não são o que parecem, ou você pode estar fugindo da realidade. No amor, idealização excessiva ou relacionamento baseado em fantasia. No trabalho, projetos irrealistas. Distinga o que é real do que é desejo. Hoje: nem todas as opções são reais. Escolha com os pés no chão. Fantasia pode desviar.","imagem":"Cups07.png"},
+  {"id":"8-copas","nome":"8 de Copas","descricao":"Significado: O Oito de Copas representa o abandono voluntário do que não preenche mais. A figura caminha à noite, deixando os cálices para trás. É a carta da busca por algo mais profundo, da jornada interior. Em termos práticos: é hora de seguir em frente. Situações emocionais, relacionamentos ou crenças que não servem mais devem ser deixados. A busca por significado maior o chama. No amor, fim de relacionamento que não nutre. Na espiritualidade, busca por propósito. A coragem de deixar abre espaço para o novo. Hoje: deixe para trás o que não serve. A busca por algo mais profundo o chama. Siga em frente.","imagem":"Cups08.png"},
+  {"id":"9-copas","nome":"9 de Copas","descricao":"Significado: O Nove de Copas é a realização emocional e a satisfação. A figura satisfeita diante dos nove cálices representa contentamento, gratidão e bem-estar do coração. É a carta dos desejos realizados. Em termos práticos: desfrute do que conquistou. Os desejos do coração estão realizados. Pode indicar período de paz emocional, gratidão e abundância afetiva. No amor, relacionamento que nutre. Na vida, sensação de plenitude. A carta pede que você celebre e agradeça. Hoje: desfrute. Satisfação, gratidão e bem-estar. Os desejos do coração estão realizados. Celebre.","imagem":"Cups09.png"},
+  {"id":"10-copas","nome":"10 de Copas","descricao":"Significado: O Dez de Copas é a felicidade completa no lar e nos relacionamentos. A família sob o arco-íris de cálices representa harmonia, paz e realização emocional total. É a conclusão feliz do ciclo das copas. Em termos práticos: harmonia familiar, alegria compartilhada e sensação de pertencimento. Pode indicar casa, família, comunidade que nutre. No amor, relacionamento que atinge plenitude. O coração está cheio. Hoje: harmonia nos relacionamentos e no lar. Alegria compartilhada. O coração está cheio. Aproveite.","imagem":"Cups10.png"},
+  {"id":"pajem-copas","nome":"Pajem de Copas","descricao":"Significado: O Pajem de Copas é o mensageiro das emoções e da intuição. O peixe que emerge do cálice representa mensagens do inconsciente. É a carta da criatividade nascente, curiosidade emocional e notícias do coração. Em termos práticos: novas mensagens intuitivas, interesse criativo ou notícias que tocam o coração. Pode indicar um novo projeto criativo, atração romântica ou insight emocional. O jovem à beira da água está receptivo. No amor, novo interesse ou mensagem romântica. Esteja aberto ao que surge. Hoje: mensagens intuitivas ou criativas chegam. Um novo interesse emocional pode surgir. Esteja receptivo.","imagem":"Cups11.png"},
+  {"id":"cavaleiro-copas","nome":"Cavaleiro de Copas","descricao":"Significado: O Cavaleiro de Copas avança com calma, carregando ofertas emocionais. É romântico, idealista, mas pode ser evasivo ou inconsistente. Representa emoção em movimento — ofertas de amor, propostas sentimentais ou alguém que se aproxima com o coração. Em termos práticos: uma oferta romântica ou emocional se aproxima. Pode ser charmoso, mas verifique a consistência. No amor, cortejo, declaração ou pessoa que vem com sentimentos. O cavaleiro anda, não galopa — a emoção é suave. Hoje: uma oferta emocional ou romântica pode chegar. Encante e seja encantado, mas observe a consistência.","imagem":"Cups12.png"},
+  {"id":"rainha-copas","nome":"Rainha de Copas","descricao":"Significado: A Rainha de Copas é a encarnação da intuição, empatia e sabedoria emocional. Ela reina sobre o reino do coração com sensibilidade e profundidade. Representa nutrição emocional, compreensão e conexão com o inconsciente. Em termos práticos: nutra sua intuição e empatia. Conecte-se com suas emoções e com os outros de forma profunda. Pode indicar que você ou alguém próximo tem essa energia — receptiva, compreensiva, sábia no coração. No amor, relacionamento nutridor. A Rainha ensina que a sabedoria do coração guia. Hoje: nutra a intuição. Conecte-se com as emoções. A sabedoria do coração guia.","imagem":"Cups13.png"},
+  {"id":"rei-copas","nome":"Rei de Copas","descricao":"Significado: O Rei de Copas domina as emoções mesmo em turbulência. Sentado no mar tempestuoso, ele mantém equilíbrio. Representa autoridade emocional, liderança compassiva e a capacidade de navegar sentimentos complexos. Em termos práticos: equilíbrio emocional e liderança com coração. Você ou alguém próximo tem a capacidade de manter a calma nas ondas. No amor, parceiro estável emocionalmente. No trabalho, líder que considera as pessoas. O Rei ensina que dominar as emoções não é reprimi-las — é navegá-las. Hoje: equilíbrio emocional. Domine as ondas internas. Sabedoria e estabilidade no coração.","imagem":"Cups14.png"},
+  {"id":"ás-ouros","nome":"Ás de Ouros","descricao":"Significado: O Ás de Ouros é a semente da abundância material. O pentáculo sobre o jardim fértil representa dinheiro, saúde, corpo físico e manifestação concreta. É o início de prosperidade. Em termos práticos: uma oportunidade de prosperidade, saúde ou manifestação material surge. Plante a semente com fé. Pode indicar novo emprego, investimento, melhora na saúde ou simplesmente a energia para construir algo sólido. No trabalho, novos projetos que podem frutificar. O elemento terra se manifesta. Hoje: uma semente de abundância material. Oportunidade de prosperidade. Plante com fé e cuide.","imagem":"Pentacles01.png"},
+  {"id":"2-ouros","nome":"2 de Ouros","descricao":"Significado: O Dois de Ouros representa equilíbrio entre responsabilidades e adaptação. A figura equilibra dois pentáculos com corda em forma de infinito — a vida continua em movimento. É a carta do malabarismo e da flexibilidade. Em termos práticos: pode ser necessário jonglar prioridades. Múltiplas demandas exigem adaptação. O mar agitado ao fundo sugere incerteza material, mas a figura mantém o equilíbrio. No trabalho, vários projetos simultâneos. Na vida, equilíbrio entre gastos e ganhos. Flexibilidade mantém a estabilidade. Hoje: equilíbrio entre responsabilidades. Jongle com sabedoria. A adaptação mantém você estável.","imagem":"Pentacles02.png"},
+  {"id":"3-ouros","nome":"3 de Ouros","descricao":"Significado: O Três de Ouros representa trabalho em equipe, habilidade e construção. O artesão na catedral mostra que a colaboração e a maestria criam obras duradouras. É a carta do reconhecimento pelo trabalho bem feito. Em termos práticos: seu trabalho e habilidades são reconhecidos. Colaboração traz resultados. Pode indicar projetos em construção, equipes que funcionam ou o valor do craft. No trabalho, reconhecimento, promoção ou projeto que avança. A excelência se constrói com paciência e colaboração. Hoje: seu trabalho é reconhecido. Colaboração traz resultados. Dedique-se ao craft.","imagem":"Pentacles03.png"},
+  {"id":"4-ouros","nome":"4 de Ouros","descricao":"Significado: O Quatro de Ouros representa segurança excessiva, controle e medo de perder. A figura segura o pentáculo com rigidez — proteção que pode virar prisão. É a carta do apego ao que se tem. Em termos práticos: avalie o que você segura com força. Segurança é boa; apego excessivo limita. Pode indicar medo de arriscar, acumulação sem compartilhar ou rigidez que impede o fluxo. No trabalho, resistência a mudanças. Às vezes soltar traz mais. Hoje: o que você segura com força? Segurança é boa; apego excessivo limita. Avalie.","imagem":"Pentacles04.png"},
+  {"id":"5-ouros","nome":"5 de Ouros","descricao":"Significado: O Cinco de Ouros representa dificuldade material, exclusão ou sensação de estar fora. As figuras passam pela igreja iluminada sem entrar — a ajuda está disponível, mas não é vista. É a carta da pobreza e da esperança ignorada. Em termos práticos: mesmo na dificuldade, há abrigo disponível. A igreja está aberta. Pode indicar período de escassez, mas também a necessidade de aceitar ajuda. No trabalho, dificuldades financeiras. A luz na janela lembra que a esperança existe. Hoje: mesmo na dificuldade, há abrigo. Não ignore a ajuda. O frio passa.","imagem":"Pentacles05.png"},
+  {"id":"6-ouros","nome":"6 de Ouros","descricao":"Significado: O Seis de Ouros representa generosidade equilibrada e o ciclo de dar e receber. A figura rica dá moedas aos necessitados — o que sobra para uns falta a outros. É a carta da caridade e da justiça na distribuição. Em termos práticos: compartilhe recursos com sabedoria. Dar e receber são ciclos. Pode indicar que você pode ajudar ou que precisa receber. No trabalho, investimento em pessoas ou projetos. A generosidade equilibrada fortalece a comunidade. Hoje: compartilhe com sabedoria. Dar e receber são ciclos. A generosidade fortalece.","imagem":"Pentacles06.png"},
+  {"id":"7-ouros","nome":"7 de Ouros","descricao":"Significado: O Sete de Ouros representa avaliação do trabalho e investimento. A figura contempla os pentáculos na plantação — o que foi plantado está crescendo? Vale a pena continuar? É a carta da paciência e do planejamento. Em termos práticos: revise seus investimentos — tempo, dinheiro, energia. A colheita depende do que foi plantado. Pode indicar projetos em andamento que precisam de tempo ou decisão de continuar ou não. No trabalho, avaliação de resultados. Planeje o próximo ciclo. Hoje: revise investimentos. A colheita depende do que foi plantado. Planeje.","imagem":"Pentacles07.png"},
+  {"id":"8-ouros","nome":"8 de Ouros","descricao":"Significado: O Oito de Ouros representa dedicação ao ofício e trabalho detalhado. O artesão fabrica pentáculos com concentração — a repetição e o foco levam à maestria. É a carta do aprendizado aplicado. Em termos práticos: concentre-se no trabalho. Habilidade se desenvolve com prática. Pode indicar período de estudo, treinamento ou trabalho manual que exige atenção. No trabalho, dedicação que traz resultados. O que você faz com as mãos importa. Hoje: concentre-se no trabalho. A maestria vem da prática. O ofício importa.","imagem":"Pentacles08.png"},
+  {"id":"9-ouros","nome":"9 de Ouros","descricao":"Significado: O Nove de Ouros representa autossuficiência, luxo e conquista material. A figura no jardim abundante cercada por nove pentáculos mostra prosperidade conquistada. É a carta do desfrute dos frutos do trabalho. Em termos práticos: desfrute do que conquistou. Abundância material e independência. Você construiu isso. Pode indicar período de conforto, reconhecimento material ou simples gratidão pela estabilidade. No trabalho, sucesso financeiro. O pássaro na gaiola pode lembrar que segurança às vezes limita. Hoje: desfrute. Abundância material. Celebre com gratidão.","imagem":"Pentacles09.png"},
+  {"id":"10-ouros","nome":"10 de Ouros","descricao":"Significado: O Dez de Ouros representa estabilidade familiar e financeira, legado e continuidade. Três gerações sob o arco de pentáculos — a abundância material serve à família. É a conclusão do ciclo material. Em termos práticos: estabilidade no lar, herança, segurança financeira que beneficia a família. Pode indicar compra de casa, aposentadoria ou legado que se constrói. No trabalho, base sólida. O ciclo material se completa com plenitude. Hoje: estabilidade familiar e financeira. Legado, lar. A abundância serve à continuidade.","imagem":"Pentacles10.png"},
+  {"id":"pajem-ouros","nome":"Pajem de Ouros","descricao":"Significado: O Pajem de Ouros é o estudante aplicado, curioso pelo mundo material. Segura o pentáculo com admiração — a semente do potencial material. É a carta do novo aprendizado ou oportunidade concreta. Em termos práticos: um novo aprendizado ou oportunidade material surge. Estude, pratique, invista em si. Pode indicar curso, estágio, novo projeto ou simplesmente a energia de quem está começando. No trabalho, potencial em desenvolvimento. O jovem no campo fértil está pronto para crescer. Hoje: nova oportunidade material ou aprendizado. O potencial está brotando. Invista em si.","imagem":"Pentacles11.png"},
+  {"id":"cavaleiro-ouros","nome":"Cavaleiro de Ouros","descricao":"Significado: O Cavaleiro de Ouros avança com cuidado e persistência. Metódico, confiável, mas às vezes lento. Representa progresso sólido e a construção que dura. Em termos práticos: progresso sólido, se paciente. O que você constrói dura. Pode indicar alguém confiável chegando, projeto que avança com calma ou a necessidade de persistência. No trabalho, entrega consistente. O cavalo pesado e a armadura sugerem que a base é sólida. Hoje: progresso sólido. Confiabilidade e persistência vencem. Construa com paciência.","imagem":"Pentacles12.png"},
+  {"id":"rainha-ouros","nome":"Rainha de Ouros","descricao":"Significado: A Rainha de Ouros é a encarnação da prosperidade, nutrição material e sensibilidade prática. Ela reina sobre o jardim abundante — a terra fornece. Representa abundância, sensatez e generosidade terrestre. Em termos práticos: nutra o que é material e prático. Abundância, sensatez e generosidade. Pode indicar que você ou alguém próximo tem essa energia — prática, nutridora, conectada à terra. No amor, parceira estável. Na vida, capacidade de criar conforto. Hoje: nutra o material. Abundância e sensatez. A terra fornece.","imagem":"Pentacles13.png"},
+  {"id":"rei-ouros","nome":"Rei de Ouros","descricao":"Significado: O Rei de Ouros representa prosperidade estabelecida, autoridade material e segurança. Ele reina sobre o reino conquistado com sabedoria prática. É a carta da liderança que constrói e protege. Em termos práticos: liderança prática e abundância estabelecida. Sua base material é sólida. Pode indicar você ou alguém que administra bem, tem autoridade no mundo concreto. No trabalho, posição de estabilidade. O touro no trono é força e fertilidade. Hoje: liderança prática. Base material sólida. Administre com sabedoria.","imagem":"Pentacles14.png"},
+  {"id":"ás-espadas","nome":"Ás de Espadas","descricao":"Significado: O Ás de Espadas é o raio de clareza mental que corta a ilusão. A espada atravessa a coroa de louros — vitória da mente. Representa verdade, insight decisivo e novo começo intelectual. Em termos práticos: um insight decisivo, verdade que corta a ilusão. Clareza mental e novo começo. Pode indicar ideia brilhante, revelação ou decisão que precisa ser tomada com a mente fria. No trabalho, projeto que exige clareza. O elemento ar se manifesta no pensamento. Hoje: clareza mental. A verdade corta a ilusão. Pense com precisão.","imagem":"Swords01.png"},
+  {"id":"2-espadas","nome":"2 de Espadas","descricao":"Significado: O Dois de Espadas representa decisão bloqueada e recusa em ver. A figura vendada segura duas espadas cruzadas — uma barreira. O mar calmo pode esconder tempestade. É a carta do impasse e da evitação. Em termos práticos: uma decisão difícil está pendente. Talvez você evite olhar. As espadas formam barreira; a venda impede a visão. No amor, indecisão sobre relacionamento. No trabalho, escolha adiada. Remover a venda e enfrentar com clareza liberta. Hoje: decisão pendente. Remova a venda. Enfrente com clareza.","imagem":"Swords02.png"},
+  {"id":"3-espadas","nome":"3 de Espadas","descricao":"Significado: O Três de Espadas representa dor emocional profunda — traição, tristeza, coração partido. O coração perfurado pelas espadas mostra a dor que a mente inflige ao coração. A chuva são lágrimas. Em termos práticos: reconheça a dor. Feridas do coração precisam de tempo. Pode indicar término, traição, notícia dolorosa ou simplesmente período de luto. A verdade pode doer, mas também liberta. No amor, dor que precisa ser processada. Hoje: reconheça a dor. Ela é real. O tempo cura. A verdade liberta.","imagem":"Swords03.png"},
+  {"id":"4-espadas","nome":"4 de Espadas","descricao":"Significado: O Quatro de Espadas representa pausa necessária, recuperação e retiro. A figura em repouso com as espadas na parede indica que a mente precisa descansar. A janela com vitral sugere luz espiritual. Em termos práticos: descanse a mente. Uma pausa é necessária para recuperar forças. Pode indicar período de recuperação, meditação ou simplesmente a necessidade de parar. No trabalho, pausa para evitar burnout. O silêncio cura. Hoje: descanse. Uma pausa é necessária. O silêncio cura.","imagem":"Swords04.png"},
+  {"id":"5-espadas","nome":"5 de Espadas","descricao":"Significado: O Cinco de Espadas representa vitória vazia, conflito e tensão. A figura vitoriosa segura as espadas enquanto outras se afastam — ganhar a batalha pode significar perder a guerra. É a carta da competição que deixa sequelas. Em termos práticos: cuidado com conflitos. Uma vitória pode custar relacionamentos. Pode indicar discussões, competição agressiva ou situação onde alguém ganha e outros perdem. No amor, conflitos que deixam mágoa. Escolha suas batalhas. Hoje: cuidado com conflitos. Vitória vazia não vale. Busque cooperação.","imagem":"Swords05.png"},
+  {"id":"6-espadas","nome":"6 de Espadas","descricao":"Significado: O Seis de Espadas representa transição, travessia e movimento para águas mais tranquilas. A figura no barco é levada através das águas — deixar para trás o que pesa. É a carta da mudança de fase. Em termos práticos: você está em transição. Deixe para trás o que pesa. A travessia leva a um lugar melhor. Pode indicar mudança de cidade, de emprego, de fase emocional. O barqueiro rema em silêncio; as águas à frente são mais calmas. Hoje: transição. Deixe para trás o que pesa. A travessia leva a um lugar melhor.","imagem":"Swords06.png"},
+  {"id":"7-espadas","nome":"7 de Espadas","descricao":"Significado: O Sete de Espadas representa estratégia, cautela ou possível engano. A figura carrega cinco espadas, deixando duas — ação sorrateira. Pode ser necessária ou questionável. Em termos práticos: estratégia e cautela. Nem tudo precisa ser declarado. Pode indicar que você precisa agir com discrição, ou que alguém está agindo às escondidas. Verifique se os meios justificam os fins. No trabalho, negociação delicada. A cautela protege. Hoje: estratégia. Cautela. Verifique se os meios justificam os fins.","imagem":"Swords07.png"},
+  {"id":"8-espadas","nome":"8 de Espadas","descricao":"Significado: O Oito de Espadas representa limitações autoimpostas. A figura está amarrada e vendada, mas as cordas são soltas — a prisão é em grande parte mental. O castelo ao fundo indica que a liberdade está próxima. Em termos práticos: você pode estar mais livre do que imagina. As amarras podem ser mentais. Pode indicar crenças limitantes, medos que paralisam ou situação onde você se sente preso sem estar. Questionar crenças liberta. Hoje: as amarras podem ser mentais. Questionar liberta. A liberdade está mais perto do que parece.","imagem":"Swords08.png"},
+  {"id":"9-espadas","nome":"9 de Espadas","descricao":"Significado: O Nove de Espadas representa ansiedade, pesadelos e medo noturno. A figura na cama, cabeça nas mãos, com nove espadas na parede — a mente amplifica o medo. A escuridão é interna. Em termos práticos: a ansiedade pode estar amplificada. Muitos medos são imaginários. Pode indicar período de preocupação excessiva, insônia ou medos que não se materializam. A luz da manhã traz clareza. No amor, ciúmes ou paranoia. Hoje: a ansiedade pode estar amplificada. Muitos medos são imaginários. A luz traz clareza.","imagem":"Swords09.png"},
+  {"id":"10-espadas","nome":"10 de Espadas","descricao":"Significado: O Dez de Espadas representa o fim dramático de um ciclo. A figura de costas com dez espadas — o fundo do poço. Mas o sol nascente indica que após a escuridão vem a luz. É a carta da conclusão e do renascimento. Em termos práticos: o pior pode ter passado. O que parecia fim é na verdade conclusão. Novos começos surgem das cinzas. Pode indicar fim de ciclo doloroso, mas necessário. A noite mais escura precede o amanhecer. Hoje: o pior pode ter passado. Conclusão. Novos começos surgem.","imagem":"Swords10.png"},
+  {"id":"pajem-espadas","nome":"Pajem de Espadas","descricao":"Significado: O Pajem de Espadas é o mensageiro vigilante, curioso e alerta. Segura a espada erguida — ideias novas, mas ainda imaturas. As nuvens sugerem tempestades no horizonte. Em termos práticos: novas ideias ou notícias chegam. Esteja vigilante. A curiosidade intelectual é boa; a precipitação não. Pode indicar mensagem importante, nova ideia ou pessoa que traz informação. No trabalho, proposta que precisa ser avaliada. Hoje: novas ideias ou notícias. Esteja vigilante. A curiosidade é boa; a precipitação não.","imagem":"Swords11.png"},
+  {"id":"cavaleiro-espadas","nome":"Cavaleiro de Espadas","descricao":"Significado: O Cavaleiro de Espadas galopa em alta velocidade — impulsividade, ação rápida, mas às vezes agressão. A determinação pode ser destrutiva se não for canalizada. É a carta da ação imediata. Em termos práticos: ação rápida pode ser necessária, mas cuidado com a impulsividade. Corte o que não serve, mas com sabedoria. Pode indicar pessoa ou situação que avança rápido, decisão impulsiva ou conflito. No amor, paixão cortante. O vento e as nuvens sugerem turbulência. Hoje: ação pode ser necessária. Mas corte com sabedoria. Evite impulsividade.","imagem":"Swords12.png"},
+  {"id":"rainha-espadas","nome":"Rainha de Espadas","descricao":"Significado: A Rainha de Espadas representa clareza mental, independência e verdade direta. Ela vê além das aparências; pode ser cortante, mas justa. A borboleta no trono é transformação. Em termos práticos: pense com clareza. A verdade, mesmo dura, liberta. Pode indicar que você ou alguém próximo tem essa energia — analítica, honesta, independente. No amor, relacionamento baseado em honestidade. Use a mente com precisão e compaixão. Hoje: clareza mental. A verdade liberta. Use a mente com compaixão.","imagem":"Swords13.png"},
+  {"id":"rei-espadas","nome":"Rei de Espadas","descricao":"Significado: O Rei de Espadas representa autoridade intelectual, justiça e poder da mente. Ele governa com lógica e imparcialidade. As borboletas são transformação; o céu claro é clareza de julgamento. Em termos práticos: decisões justas e pensamento estratégico. Liderança mental. Pode indicar você ou alguém em posição de autoridade que decide com clareza. No trabalho, líder que usa a razão. A verdade e a ordem prevalecem. Hoje: decisões justas. Pensamento estratégico. A verdade prevalece.","imagem":"Swords14.png"},
+  {"id":"ás-paus","nome":"Ás de Paus","descricao":"Significado: O Ás de Paus é a centelha de inspiração e energia criativa. O cajado vivo com folhas brotando representa o elemento fogo — impulso, coragem e novo começo. É a semente do espírito empreendedor. Em termos práticos: uma centelha de inspiração ou nova energia. O impulso criativo e a coragem para começar. Pode indicar novo projeto, ideia que acende ou simplesmente a energia para agir. No trabalho, iniciativa. A faísca está acesa. Hoje: inspiração. Nova energia. A faísca está acesa. Comece.","imagem":"Wands01.png"},
+  {"id":"2-paus","nome":"2 de Paus","descricao":"Significado: O Dois de Paus representa visão de futuro e planejamento de expansão. A figura segura o globo, olhando para o horizonte — o mundo nas mãos. A base está firme; é hora de sonhar maior. Em termos práticos: você vê o horizonte. Planeje a expansão. O que você construiu permite sonhar maior. Pode indicar planejamento de viagem, novo negócio ou visão de longo prazo. No trabalho, estratégia de crescimento. Hoje: planeje a expansão. O horizonte está à vista. Sonhe maior.","imagem":"Wands02.png"},
+  {"id":"3-paus","nome":"3 de Paus","descricao":"Significado: O Três de Paus representa visão realizada e expansão em andamento. A figura no penhasco observa os navios — os projetos estão se materializando. Perspectiva elevada. Em termos práticos: seus projetos estão se materializando. A visão se torna realidade. Pode indicar que o que foi planejado está em movimento. No trabalho, projetos que decolam. Continue observando e ajustando. Hoje: projetos se materializam. A visão vira realidade. Continue.","imagem":"Wands03.png"},
+  {"id":"4-paus","nome":"4 de Paus","descricao":"Significado: O Quatro de Paus representa estabilidade, celebração e comunidade. A guirlanda conectando os cajados é a festa merecida. O castelo ao fundo é lar e segurança. É a carta da base firme. Em termos práticos: celebre a estabilidade conquistada. Momentos de paz e gratidão. A base está firme; desfrute. Pode indicar festa, reconhecimento ou simplesmente apreciar o que foi construído. No trabalho, equipe estável. Hoje: celebre. A base está firme. Desfrute.","imagem":"Wands04.png"},
+  {"id":"5-paus","nome":"5 de Paus","descricao":"Significado: O Cinco de Paus representa competição, disputa e tensão. Figuras em conflito, ninguém ganha claramente. A energia do fogo em conflito. É a carta do atrito. Em termos práticos: pode haver competição ou atrito. Lembre-se: às vezes todos perdem em uma briga. Pode indicar conflitos no trabalho, competição ou discussões que não levam a lugar nenhum. Busque cooperação. Hoje: pode haver competição. Às vezes todos perdem. Busque cooperação.","imagem":"Wands05.png"},
+  {"id":"6-paus","nome":"6 de Paus","descricao":"Significado: O Seis de Paus representa vitória, reconhecimento e sucesso público. A figura triunfante a cavalo com louros — o esforço é reconhecido. O cavalo branco é pureza de intenção. Em termos práticos: seu esforço é reconhecido. Celebre a vitória. O sucesso é visível. Pode indicar promoção, reconhecimento ou simplesmente o momento de brilhar. No trabalho, conquista que todos veem. Aproveite o momento. Hoje: reconhecimento. Celebre. O sucesso é visível.","imagem":"Wands06.png"},
+  {"id":"7-paus","nome":"7 de Paus","descricao":"Significado: O Sete de Paus representa defesa, perseverança e manutenção do que foi conquistado. A figura no morro defende sua posição. O atacante pode ser a dúvida ou a competição. É a carta da resistência. Em termos práticos: defenda sua posição. Você conquistou; mantenha. Pode indicar que você precisa proteger o que construiu, ou que há pressão de fora. A perseverança vence. Hoje: defenda. Você conquistou. A perseverança vence.","imagem":"Wands07.png"},
+  {"id":"8-paus","nome":"8 de Paus","descricao":"Significado: O Oito de Paus representa movimento rápido, notícias e progresso acelerado. Os cajados voando pelo ar — o que foi lançado está em movimento. A energia em ação. Em termos práticos: as coisas se movem rapidamente. Notícias ou progresso inesperado. Pode indicar viagem, notícia que chega ou projetos que aceleram. A energia está fluindo; acompanhe. Hoje: movimento rápido. Notícias. A energia flui. Acompanhe.","imagem":"Wands08.png"},
+  {"id":"9-paus","nome":"9 de Paus","descricao":"Significado: O Nove de Paus representa resiliência, defensividade e perseverança. A figura ferida mas vigilante — a bandagem indica batalha; a postura indica que não desiste. É a carta de quem está cansado mas de pé. Em termos práticos: você está cansado mas de pé. A resiliência é sua força. Pode indicar período difícil, mas você está resistindo. Mantenha a guarda, mas descanse quando puder. Hoje: resiliência. Você está de pé. Descanse quando puder.","imagem":"Wands09.png"},
+  {"id":"10-paus","nome":"10 de Paus","descricao":"Significado: O Dez de Paus representa o fardo da responsabilidade e o peso do sucesso. A figura curvada sob dez cajados — o peso pode ser excessivo. O ciclo dos paus se completa com carga. Em termos práticos: avalie o que você carrega. Algumas responsabilidades podem ser delegadas. O sucesso tem peso; distribua. Pode indicar sobrecarga, excesso de compromissos ou necessidade de priorizar. Hoje: avalie a carga. Delegue quando possível. Distribua o peso.","imagem":"Wands10.png"},
+  {"id":"pajem-paus","nome":"Pajem de Paus","descricao":"Significado: O Pajem de Paus é o mensageiro da energia e da curiosidade. Segura o cajado com entusiasmo — novas ideias, projetos que despertam. As pirâmides ao fundo sugerem mistério e aventura. Em termos práticos: uma nova ideia ou projeto desperta. O entusiasmo é contagioso. Pode indicar proposta, nova iniciativa ou simplesmente a energia de explorar. Explore com coragem. Hoje: nova ideia ou projeto. O entusiasmo contagia. Explore.","imagem":"Wands11.png"},
+  {"id":"cavaleiro-paus","nome":"Cavaleiro de Paus","descricao":"Significado: O Cavaleiro de Paus galopa com energia — paixão, impulso e aventura. Pode ser impulsivo, mas cheio de vida. A salamandra na armadura é o fogo em ação. Em termos práticos: ação ousada e paixão. Siga o impulso criativo, mas mantenha algum freio. Pode indicar pessoa ou situação que avança com energia, ou que você precisa agir com ousadia. No amor, paixão ardente. O fogo avança. Hoje: ação ousada. Paixão. Mantenha um freio.","imagem":"Wands12.png"},
+  {"id":"rainha-paus","nome":"Rainha de Paus","descricao":"Significado: A Rainha de Paus representa confiança, calor e liderança magnética. Ela é a encarnação do fogo estável — paixão com consistência. O gato negro é mistério doméstico; os girassóis viram-se para a luz. Em termos práticos: sua confiança e calor inspiram. Liderança com coração. Pode indicar você ou alguém com essa energia — carismática, confiante, nutridora. No amor, parceira apaixonada. Brilhe. Hoje: confiança. Calor. Liderança. Brilhe.","imagem":"Wands13.png"},
+  {"id":"rei-paus","nome":"Rei de Paus","descricao":"Significado: O Rei de Paus representa liderança visionária, empreendedorismo e carisma. O leão no trono é coragem; a salamandra é o fogo que sobrevive. Ele governa com paixão e visão. Em termos práticos: lidere com visão. Sua energia e experiência inspiram. Pode indicar você ou alguém em posição de liderança que motiva outros. No trabalho, líder que inspira. O fogo da autoridade está aceso. Hoje: lidere. Sua energia inspira. O fogo está aceso.","imagem":"Wands14.png"}
+]

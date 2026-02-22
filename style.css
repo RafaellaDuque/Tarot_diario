@@ -121,6 +121,7 @@ header {
 /* HERO SECTION POSITIONING  */
 
 .hero {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +129,50 @@ header {
   width: 100vw; /* 100% da largura da tela */
   height: 94vh;
   text-align: center;
+}
+
+/* Done by - canto esquerdo do hero */
+.hero-done-by {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.done-by-label {
+  font-size: 0.7rem;
+  color: #DEDBD2;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.done-by-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.done-by-link:hover {
+  opacity: 0.9;
+  transform: scale(1.08);
+}
+
+.done-by-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(222, 219, 210, 0.5);
+}
+
+.hero-done-by .done-by-link svg {
+  width: 20px;
+  height: 20px;
+  color: #DEDBD2;
 }
 
 .card-placeholder {
@@ -222,10 +267,9 @@ header {
 .main-content {
   display: flex;
   align-items: center;
-  gap: 3rem;
-  max-width: 1200px;
+  gap: 4rem;
+  width: 100%;
   min-width: 0;
-  margin: 0 auto;
 }
 
 .main-text {
@@ -247,9 +291,18 @@ header {
 }
 
 .main-text p {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   line-height: 1.6;
   color: #2d3319;
+}
+
+.main-curiosity {
+  padding: 1rem 1.25rem;
+  background: rgba(45, 51, 25, 0.06);
+  border-left: 4px solid rgba(45, 51, 25, 0.3);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
 }
 
 .image-container {
@@ -263,6 +316,23 @@ header {
   height: auto;
   border-radius: 8px;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .hero-done-by {
+    left: 1rem;
+    bottom: 3rem;
+  }
+
+  .done-by-avatar {
+    width: 24px;
+    height: 24px;
+  }
+
+  .hero-done-by .done-by-link svg {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -289,7 +359,7 @@ header {
 .card-section {
   margin: 2rem auto;
   padding: 2rem;
-  max-width: 80vw;
+  /* max-width: 80vw; */
 }
 
 .card-section h2 {
@@ -308,10 +378,12 @@ header {
   flex: 1;
   min-width: 200px;
   padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 8px;
-  /* border: 2px solid #2d3319; */
-  box-shadow: 0 2px 8px rgba(45, 51, 25, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
 }
 
 .card h3, .card h2{
@@ -324,5 +396,88 @@ header {
   font-size: 0.95rem;
   line-height: 1.5;
   color: #2d3319;
+}
+
+/* FOOTER - mesmo fundo da página */
+.site-footer {
+  background: transparent;
+  color: #2d3319;
+  padding: 3rem 2rem 2rem;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(45, 51, 25, 0.2);
+  padding-top: 3rem;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-col h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  margin-bottom: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col a {
+  color: #2d3319;
+  text-decoration: none;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #1a1d12;
+}
+
+.footer-icon {
+  flex-shrink: 0;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(45, 51, 25, 0.2);
+  margin: 2rem 0 1.5rem;
+}
+
+.footer-copyright {
+  font-size: 0.85rem;
+  color: #5a5a5a;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
