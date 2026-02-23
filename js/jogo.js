@@ -67,3 +67,30 @@ btnReiniciar.addEventListener("click", reiniciarJogo);
 
 
 
+/*
+async function obterLeitura() {
+  const perguntaUsuario = document.getElementById('pergunta').value;
+  const cartasSorteadas = ["O Mago", "A Estrela"]; // Exemplo: pegue do seu array de sorteio
+
+  console.log("Enviando para o servidor...");
+
+  try {
+    const resposta = await fetch('/api/ler-cartas', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        pergunta: perguntaUsuario,
+        cartas: cartasSorteadas
+      })
+    });
+
+    const dados = await resposta.json();
+    
+    // Agora você exibe no seu HTML
+    document.getElementById('resultado-ia').innerText = dados.leitura;
+
+  } catch (erro) {
+    console.error("Erro ao falar com a API:", erro);
+  }
+}
+  */
