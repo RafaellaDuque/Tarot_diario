@@ -4,15 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/modos.css" />
-    <title>Escolher Modo - Tarot Diário</title>
+    <link rel="stylesheet" href="css/jogo.css" />
+    <title>Cruz Celta - Tarot Diário</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400&display=swap"
       rel="stylesheet" />
+    <style>
+      .em-breve-container {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+      }
+      .em-breve-container h1 {
+        color: #2d3319;
+        margin-bottom: 1rem;
+      }
+      .em-breve-container p {
+        color: #5a5a5a;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+      .em-breve-container a {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #2d3319;
+        color: #f5ebe0;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 600;
+      }
+      .em-breve-container a:hover {
+        opacity: 0.9;
+      }
+    </style>
   </head>
   <body class="page-inner">
-
-    <!-- HEADER -->
     <header>
       <div class="header-container">
         <nav class="navbar">
@@ -27,37 +57,14 @@
       </div>
     </header>
 
-    <!-- MODOS CONTAINER -->
-    <main class="modos-container">
-      <h1>Escolha o modo de jogo</h1>
-      <p class="modos-subtitle">Selecione uma tiragem para começar</p>
-
-      <div class="modos-cards">
-        <a href="jogo-1.html" class="modo-card">
-          <div class="modo-card-icon">1</div>
-          <h3>Carta do Dia</h3>
-          <p>Uma carta para guiar suas ações. Mentalize uma pergunta ou peça um conselho.</p>
-          <span class="modo-card-cta">Jogar</span>
-        </a>
-        <a href="jogo-3.html" class="modo-card">
-          <div class="modo-card-icon">3</div>
-          <h3>Tiragem de 3 Cartas</h3>
-          <p>Passado, presente e futuro — uma leitura para compreender o fluxo da situação.</p>
-          <span class="modo-card-cta">Jogar</span>
-        </a>
-        <div class="modo-card modo-card-disabled" aria-disabled="true">
-          <div class="modo-card-icon">10</div>
-          <h3>Cruz Celta</h3>
-          <p>Tiragem clássica de 10 cartas. Utilizada para analisar profundamente uma situação ou pergunta.</p>
-          <span class="modo-card-cta">Em breve</span>
-        </div>
+    <main class="jogo-container">
+      <div class="em-breve-container">
+        <h1>Cruz Celta</h1>
+        <p>Esta tiragem está em desenvolvimento. Em breve você poderá fazer leituras completas com as 10 cartas da Cruz Celta.</p>
+        <a href="modos.html">Voltar aos modos</a>
       </div>
     </main>
 
-    
-
-
-    <!-- FOOTER -->
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-columns">

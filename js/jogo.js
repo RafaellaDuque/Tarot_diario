@@ -8,6 +8,42 @@ const cardResultImage = document.querySelector(".deck-image");
 const cardResultNome = document.querySelector(".card-result-nome");
 const btnReiniciar = document.querySelector(".btn-reiniciar");
 
+// SELCIONANDO ELEMENTOS DO DOM - PERGUNTA
+const perguntaModo1 = document.querySelector("#pergunta-modo-1");
+const perguntaModo3 = document.querySelector("#pergunta-modo-3");
+
+/* A FAZER:
+
+- Conteudo do MODO escondido até que o usuário selecione 
+
+
+
+
+*/
+
+
+
+
+
+/*
+LÓGICA PARA CHAMAR A API DA IA
+- perguntar ao usuário uma pergunta 
+- chamar a API da IA com a pergunta e as cartas sorteadas
+- exibir a resposta da IA no elemento resultado-ia
+
+
+
+
+
+*/ 
+
+
+// SELCIONANDO ELEMENTOS DO DOM - MODO 3 CARTAS
+
+
+// SELCIONANDO ELEMENTOS DO DOM - MODO CRUZ CELTA
+
+
 
 
 //  ARRAY DE CARTAS - CARREGANDO A PARTIR DO ARQUIVO JSON
@@ -41,13 +77,22 @@ cardDeck.addEventListener("click", () => {
 
   const carta = sortearCarta();
   cardResultDescription.textContent = carta.descricao;
-  cardResultDescription.classList.add("visible");
+  cardResultNome.textContent = carta.nome;
 
   cardResultNome.classList.add("visible");
   cardResultImage.src = `imagens/Deck/${carta.imagem}`;
-  cardResultNome.textContent = carta.nome;
 
-  if (btnReiniciar) btnReiniciar.classList.add("visible");
+  const mostrarDescricaoQuandoImagemCarregar = () => {
+    cardResultDescription.classList.add("visible");
+    if (btnReiniciar) btnReiniciar.classList.add("visible");
+  };
+
+  if (cardResultImage.complete) {
+    mostrarDescricaoQuandoImagemCarregar();
+  } else {
+    cardResultImage.addEventListener("load", mostrarDescricaoQuandoImagemCarregar, { once: true });
+    cardResultImage.addEventListener("error", mostrarDescricaoQuandoImagemCarregar, { once: true });
+  }
 });
 
 // REINICIAR O JOGO

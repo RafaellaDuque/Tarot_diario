@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/modos.css" />
-    <title>Escolher Modo - Tarot Diário</title>
+    <link rel="stylesheet" href="css/jogo.css" />
+    <title>Tiragem de 3 Cartas - Tarot Diário</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400&display=swap"
       rel="stylesheet" />
   </head>
   <body class="page-inner">
-
-    <!-- HEADER -->
+    <!-- HEADER DO SITE -->
     <header>
       <div class="header-container">
         <nav class="navbar">
@@ -27,37 +26,57 @@
       </div>
     </header>
 
-    <!-- MODOS CONTAINER -->
-    <main class="modos-container">
-      <h1>Escolha o modo de jogo</h1>
-      <p class="modos-subtitle">Selecione uma tiragem para começar</p>
+    <!-- JOGO CONTAINER - 3 CARTAS -->
+    <main class="jogo-container">
+      <section class="jogo-modo-3">
+        <h1>Tiragem de 3 Cartas</h1>
 
-      <div class="modos-cards">
-        <a href="jogo-1.html" class="modo-card">
-          <div class="modo-card-icon">1</div>
-          <h3>Carta do Dia</h3>
-          <p>Uma carta para guiar suas ações. Mentalize uma pergunta ou peça um conselho.</p>
-          <span class="modo-card-cta">Jogar</span>
-        </a>
-        <a href="jogo-3.html" class="modo-card">
-          <div class="modo-card-icon">3</div>
-          <h3>Tiragem de 3 Cartas</h3>
-          <p>Passado, presente e futuro — uma leitura para compreender o fluxo da situação.</p>
-          <span class="modo-card-cta">Jogar</span>
-        </a>
-        <div class="modo-card modo-card-disabled" aria-disabled="true">
-          <div class="modo-card-icon">10</div>
-          <h3>Cruz Celta</h3>
-          <p>Tiragem clássica de 10 cartas. Utilizada para analisar profundamente uma situação ou pergunta.</p>
-          <span class="modo-card-cta">Em breve</span>
+        <div class="pergunta-section">
+          <label for="pergunta-modo-3">Mentalize ou escreva sua pergunta</label>
+          <textarea id="pergunta-modo-3" name="pergunta" class="pergunta-input" rows="3" placeholder="Ex: Como posso superar essa situação?"></textarea>
+          <button type="button" class="btn-pergunta">Enviar</button>
         </div>
-      </div>
+
+        
+        <!-- GAME AREA - 3 CARTAS -->
+        <div class="game-container">
+          <p class="jogo-instruction">Clique no baralho para revelar passado, presente e futuro</p>
+          <div class="game-area game-area-3">
+            <div class="card-deck card-deck-3">
+              <img src="imagens/carta_tarot_placeholder.jpg" alt="Baralho de Tarot" class="deck-image" />
+            </div>
+          </div>
+          <div class="card-result card-result-3">
+            <div class="card-slot card-slot-passado">
+              <span class="card-slot-label">Passado</span>
+              <div class="card-slot-image">
+                <img src="imagens/carta_tarot_placeholder.jpg" alt="Carta" class="deck-image" />
+              </div>
+              <h3 class="card-slot-nome">Nome da carta</h3>
+              <p class="card-slot-descricao">Sua carta será revelada aqui.</p>
+            </div>
+            <div class="card-slot card-slot-presente">
+              <span class="card-slot-label">Presente</span>
+              <div class="card-slot-image">
+                <img src="imagens/carta_tarot_placeholder.jpg" alt="Carta" class="deck-image" />
+              </div>
+              <h3 class="card-slot-nome">Nome da carta</h3>
+              <p class="card-slot-descricao">Sua carta será revelada aqui.</p>
+            </div>
+            <div class="card-slot card-slot-futuro">
+              <span class="card-slot-label">Futuro</span>
+              <div class="card-slot-image">
+                <img src="imagens/carta_tarot_placeholder.jpg" alt="Carta" class="deck-image" />
+              </div>
+              <h3 class="card-slot-nome">Nome da carta</h3>
+              <p class="card-slot-descricao">Sua carta será revelada aqui.</p>
+            </div>
+            <button type="button" class="btn-reiniciar btn-reiniciar-3">Tirar outra tiragem</button>
+          </div>
+        </div>
+      </section>
     </main>
 
-    
-
-
-    <!-- FOOTER -->
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-columns">
@@ -104,5 +123,7 @@
         <p class="footer-copyright">&copy; 2026 Tarot Diário. Todos os direitos reservados.</p>
       </div>
     </footer>
+
+    <script src="js/jogo-3.js"></script>
   </body>
 </html>

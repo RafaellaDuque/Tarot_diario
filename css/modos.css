@@ -101,6 +101,25 @@
   background: #3d4329;
 }
 
+.modo-card-disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.modo-card-disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.modo-card-disabled .modo-card-cta {
+  background: #5a5a5a;
+}
+
+.modo-card-em-breve .modo-card-cta {
+  background: #5a5a5a;
+}
+
 @media (max-width: 900px) {
   .modos-cards {
     grid-template-columns: 1fr;
