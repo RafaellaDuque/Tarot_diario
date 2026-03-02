@@ -279,6 +279,7 @@ header {
 /* MAIN CONTENT */
 .main-container {
   margin: 2rem auto;
+
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
@@ -286,16 +287,15 @@ header {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
-  max-width: 90vw;
+  max-width: 80vw;
   min-width: min(500px, 95vw);
   width: 100%;
-  overflow: hidden;
 }
 
 .main-content {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
   width: 100%;
   min-width: 0;
 }
@@ -336,6 +336,7 @@ header {
 .image-container {
   flex-shrink: 0;
   max-width: 100%;
+  margin-left: 3rem;
 }
 
 .main-image {
@@ -366,12 +367,13 @@ header {
 @media (max-width: 992px) {
   .main-content {
     flex-direction: column;
+    gap: 3rem;
   }
 
   .image-container {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
   }
 
   .main-image {
@@ -387,7 +389,7 @@ header {
 .card-section {
   margin: 2rem auto;
   padding: 2rem;
-  /* max-width: 80vw; */
+  max-width: 80vw;
 }
 
 .card-section h2 {

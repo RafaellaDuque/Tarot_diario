@@ -3,9 +3,11 @@
 // ===== SELCIONANDO ELEMENTOS DO DOM - CARTA DO DIA =====
 const cardDeck = document.querySelector(".card-deck");
 const cardResultDescription = document.querySelector(".card-result-description");
+const cardResultOraculo = document.querySelector(".card-result-oraculo");
 const cardResultImage = document.querySelector(".deck-image");
 const cardResultNome = document.querySelector(".card-result-nome");
 const btnReiniciar = document.querySelector(".btn-reiniciar");
+const jogoInstruction = document.querySelector(".jogo-instruction");
 // ===== SELCIONANDO ELEMENTOS DO DOM - PERGUNTA =====
 const perguntaModo1 = document.querySelector("#pergunta-modo-1");
 const btnPergunta = document.querySelector(".btn-pergunta");
@@ -19,7 +21,9 @@ const gameContainerShown = () => gameContainer.classList.add("visible");
 const gameContainerHidden = () => gameContainer.classList.remove("visible");
 const perguntaSectionShown = () => perguntaSection.classList.remove("hidden");
 const perguntaSectionHidden = () => perguntaSection.classList.add("hidden");
-
+// ===== VARIÁVEL PARA A PERGUNTA =====
+// const perguntaUsuario = perguntaModo1.value;
+let perguntaUsuario = "";
 
 /* TODO:
 - Conteudo do jogo/carta escondido até que o usuário selecione uma pergunta
@@ -37,7 +41,7 @@ let cartas = [];
 
 async function getCartas() {
   try {
-  const response = await fetch("cartas.json");
+    const response = await fetch("cartas.json");
     if (!response.ok) throw new Error("Erro ao carregar as cartas");
     cartas = await response.json(); // Converte o JSON para um objeto JavaScript
     console.log(`${cartas.length} cartas carregadas`);
@@ -52,27 +56,54 @@ document.addEventListener("DOMContentLoaded", getCartas);
 
 // ===== FUNÇÃO PARA ENVIAR A PERGUNTA PARA A API DA IA =====
 
+
 btnPergunta.addEventListener("click", () => {
   gameContainerShown();
   perguntaSectionHidden();
-  // Enviando a pergunta para a API da IA
-  function enviarPerguntaIA() {
-  const pergunta = perguntaModo1.value;
-  console.log(pergunta);
+  if (perguntaModo1.value.trim() === "") {
+    alert("Por favor, digite uma pergunta válida.");
+    return;
   }
+  perguntaUsuario = perguntaModo1.value;
+  
 });
 
+// ===== FUNÇÃO PARA ENVIAR A PERGUNTA PARA A API DA IA =====
 
-// FUNÇÃO PARA ENVIAR A PERGUNTA PARA A API DA IA
-// const enviarPergunta = function() {
-//   const pergunta = perguntaModo1.value;
-//   console.log(pergunta);
-// };
+async function enviarPerguntaIA(pergunta, cartaNome, descricaoCarta) {
+  try {
+    cardResultOraculo.innerHTML = '<em>Consultando os astros... aguarde.</em>';
+    cardResultOraculo.classList.add("visible");
 
+    const response = await fetch("/api/lercartas", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        pergunta: pergunta,
+        cartas: [{ nome: cartaNome, descricao: descricaoCarta }]
+      })
+    });
 
+    const data = await response.json();
 
+    if (!response.ok) {
+      throw new Error(data.error || "Falha na API");
+    }
 
+    if (!data.leitura) {
+      throw new Error("Resposta inválida da IA");
+    }
 
+    const leituraFormatada = data.leitura
+      .split(/\n\n+/)
+      .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+      .join("");
+    cardResultOraculo.innerHTML = `<strong>O Oráculo diz:</strong>${leituraFormatada}`;
+  } catch (error) {
+    const msg = error.message || "Erro desconhecido";
+    cardResultOraculo.innerHTML = `<strong style="color:#c0392b;">Erro:</strong> ${msg}<br><small>Dica: rode <code>npx vercel dev</code> e acesse por localhost.</small>`;
+  }
+}
 
 // ===== FUNÇÃO PARA SORTEAR UMA CARTA ALEATÓRIA =====
 
@@ -88,6 +119,8 @@ const sortearCarta = function() {
 
 let cartaRevelada = false;
 
+// Evento click na carta
+
 cardDeck.addEventListener("click", () => {
   if (cartaRevelada) return;
 
@@ -98,29 +131,34 @@ cardDeck.addEventListener("click", () => {
   cardResultDescription.textContent = carta.descricao;
   cardResultNome.textContent = carta.nome;
 
+  // Mostra nome e descrição imediatamente (não espera a imagem carregar)
+  jogoInstruction.classList.add("hidden");
   cardResultNome.classList.add("visible");
-  cardResultImage.src = `imagens/Deck/${carta.imagem}`;
+  cardResultDescription.classList.add("visible");
+  if (btnReiniciar) btnReiniciar.classList.add("visible");
 
-  const mostrarDescricaoQuandoImagemCarregar = () => {
-    cardResultDescription.classList.add("visible");
-    if (btnReiniciar) btnReiniciar.classList.add("visible");
-  };
-
-  if (cardResultImage.complete) {
-    mostrarDescricaoQuandoImagemCarregar();
-  } else {
-    cardResultImage.addEventListener("load", mostrarDescricaoQuandoImagemCarregar, { once: true });
-    cardResultImage.addEventListener("error", mostrarDescricaoQuandoImagemCarregar, { once: true });
+  if (perguntaUsuario) {
+    enviarPerguntaIA(perguntaUsuario, carta.nome, carta.descricao);
   }
+
+  cardResultImage.src = `imagens/Deck/${carta.imagem}`;
 });
 
 // ===== REINICIAR O JOGO =====
-const reiniciarJogo = function() {
-  cartaRevelada = false;
-  cardResultDescription.classList.remove("visible");
-  cardResultNome.classList.remove("visible");
-  cardResultImage.src = "imagens/carta_tarot_placeholder.jpg";
-  btnReiniciar.classList.remove("visible");
-};
+// const reiniciarJogo = function() {
+//   cartaRevelada = false;
+//   cardResultDescription.classList.remove("visible");
+//   cardResultNome.classList.remove("visible");
+//   cardResultOraculo.classList.remove("visible");
+//   cardResultOraculo.innerHTML = "";
+//   cardResultImage.src = "imagens/carta_tarot_placeholder.jpg";
+//   btnReiniciar.classList.remove("visible");
+//   perguntaUsuario = "";
+//   perguntaModo1.value = "";
+// };
 
-btnReiniciar.addEventListener("click", reiniciarJogo);
+// btnReiniciar.addEventListener("click", reiniciarJogo);
+
+btnReiniciar.addEventListener("click", () => {
+  window.location.href = "modos.html";
+});

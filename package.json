@@ -1,0 +1,9 @@
+{
+  "name": "tarot-diario",
+  "version": "1.0.0",
+  "description": "Tarot Diário - site de leitura de tarot",
+  "scripts": {},
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
