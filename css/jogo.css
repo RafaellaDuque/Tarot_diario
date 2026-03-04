@@ -35,6 +35,7 @@ body {
 }
 
 .pergunta-section {
+  margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: left;
   max-width: 80%;
@@ -85,6 +86,15 @@ body {
   box-shadow: 0 0 0 2px rgba(45, 51, 25, 0.1);
 }
 
+.pergunta-input.input-erro {
+  border-color: #c0392b;
+  box-shadow: 0 0 0 2px rgba(192, 57, 43, 0.15);
+}
+
+.pergunta-input.input-erro::placeholder {
+  color: #c0392b;
+}
+
 .btn-pergunta {
   margin-top: 1rem;
   padding: 0.6rem 1.5rem;
@@ -133,6 +143,7 @@ body {
   height: auto;
   display: block;
   border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 .card-result {
@@ -144,20 +155,10 @@ body {
   gap: 1rem;
 }
 
-/* Descrição da carta - escondida até revelar */
-.card-result-description {
-  display: none;
-  color: #2d3319;
-  font-size: 1.2rem;
-}
-
-.card-result-description.visible {
-  display: block;
-}
-
 .card-result-oraculo {
   display: none;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   border-top: 1px solid rgba(45, 51, 25, 0.2);
@@ -185,7 +186,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .card-result-nome.visible {
@@ -221,7 +222,7 @@ body {
 .jogo-modo-1 h1 {
   font-family: "Cinzel", serif;
   color: #2d3319;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
 }
 

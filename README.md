@@ -11,7 +11,7 @@ Aplicacao web interativa de Tarot que oferece leituras diarias personalizadas co
 - **Tiragem de 3 Cartas** — Leitura de passado, presente e futuro.
 - **Cruz Celta** — Tiragem classica de 10 cartas (em breve).
 
-**Leitura por IA** — Integracaoo com a API do Google Gemini (`gemini-2.5-flash-lite`) via serverless function da Vercel. A IA atua como tarologa, gerando interpretacoes em tom natural e acolhedor, formatadas em paragrafos e conectadas diretamente a pergunta do usuario.
+**Leitura por IA** — Integracaoo com a API do Google Gemini. A IA atua como tarologa.
 
 **Baralho Completo** — 78 cartas (22 Arcanos Maiores + 56 Arcanos Menores) com nome, descricao detalhada e imagem propria, armazenadas em JSON.
 

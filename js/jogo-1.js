@@ -2,7 +2,6 @@
 
 // ===== SELCIONANDO ELEMENTOS DO DOM - CARTA DO DIA =====
 const cardDeck = document.querySelector(".card-deck");
-const cardResultDescription = document.querySelector(".card-result-description");
 const cardResultOraculo = document.querySelector(".card-result-oraculo");
 const cardResultImage = document.querySelector(".deck-image");
 const cardResultNome = document.querySelector(".card-result-nome");
@@ -25,16 +24,6 @@ const perguntaSectionHidden = () => perguntaSection.classList.add("hidden");
 // const perguntaUsuario = perguntaModo1.value;
 let perguntaUsuario = "";
 
-/* TODO:
-- Conteudo do jogo/carta escondido até que o usuário selecione uma pergunta
-- A pergunta deve ser enviada para a API da IA
-- A resposta da IA deve ser exibida no elemento resultado-ia
-- A resposta da IA deve ser exibida no elemento resultado-ia
-
-
-*/
-
-
 
 // ===== ARRAY DE CARTAS - CARREGANDO A PARTIR DO ARQUIVO JSON =====
 let cartas = [];
@@ -54,18 +43,24 @@ async function getCartas() {
 document.addEventListener("DOMContentLoaded", getCartas);
 
 
-// ===== FUNÇÃO PARA ENVIAR A PERGUNTA PARA A API DA IA =====
+// ===== EVENTO CLICK PARA ENVIAR A PERGUNTA PARA A API DA IA =====
 
+perguntaModo1.addEventListener("input", () => {
+  perguntaModo1.classList.remove("input-erro");
+});
 
 btnPergunta.addEventListener("click", () => {
-  gameContainerShown();
-  perguntaSectionHidden();
   if (perguntaModo1.value.trim() === "") {
-    alert("Por favor, digite uma pergunta válida.");
+    perguntaModo1.classList.add("input-erro");
+    perguntaModo1.setAttribute("placeholder", "Digite uma pergunta antes de continuar...");
+    perguntaModo1.focus();
     return;
   }
+
+  perguntaModo1.classList.remove("input-erro");
   perguntaUsuario = perguntaModo1.value;
-  
+  gameContainerShown();
+  perguntaSectionHidden();
 });
 
 // ===== FUNÇÃO PARA ENVIAR A PERGUNTA PARA A API DA IA =====
@@ -101,7 +96,7 @@ async function enviarPerguntaIA(pergunta, cartaNome, descricaoCarta) {
     cardResultOraculo.innerHTML = `<strong>O Oráculo diz:</strong>${leituraFormatada}`;
   } catch (error) {
     const msg = error.message || "Erro desconhecido";
-    cardResultOraculo.innerHTML = `<strong style="color:#c0392b;">Erro:</strong> ${msg}<br><small>Dica: rode <code>npx vercel dev</code> e acesse por localhost.</small>`;
+    cardResultOraculo.innerHTML = `<strong style="color:#c0392b;">Erro:</strong> ${msg}<br><small>Dica: rode <code>npx vercel dev</code> e acesse por localhost.</small><hr style="margin:1rem 0;border-color:rgba(45,51,25,0.2);"><strong>Sobre a carta:</strong><p>${descricaoCarta}</p>`;
   }
 }
 
@@ -128,13 +123,10 @@ cardDeck.addEventListener("click", () => {
   if (!carta) return;
 
   cartaRevelada = true;
-  cardResultDescription.textContent = carta.descricao;
   cardResultNome.textContent = carta.nome;
 
-  // Mostra nome e descrição imediatamente (não espera a imagem carregar)
   jogoInstruction.classList.add("hidden");
   cardResultNome.classList.add("visible");
-  cardResultDescription.classList.add("visible");
   if (btnReiniciar) btnReiniciar.classList.add("visible");
 
   if (perguntaUsuario) {

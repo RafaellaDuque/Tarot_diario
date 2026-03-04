@@ -1,5 +1,23 @@
 `use strict`;
 
+// Mobile menu toggle
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("active");
+    navLinks.classList.toggle("open");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+      menuToggle.classList.remove("active");
+      navLinks.classList.remove("open");
+    }
+  });
+}
+
 // Parallax na imagem de fundo (mouse + scroll)
 const heroBgImage = document.getElementById("hero-bg-image");
 const mouseParallaxStrength = 15;
