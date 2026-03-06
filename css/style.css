@@ -33,6 +33,10 @@ h1 {
   color: #DEDBD2;
 }
 
+.hero-content p {
+  font-size: 1.4rem;
+}
+
 /* HEADER - estética glassmorphism */
 header {
   padding: 1rem 2rem;
@@ -70,6 +74,7 @@ header {
   color: #f5ebe0;
   cursor: pointer;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .nav-links a:hover,
@@ -131,8 +136,8 @@ header {
 /* Botão secundário do header */
 .nav-cta-secondary {
   background: transparent !important;
-  color: #DEDBD2 !important;
-  border: none !important;
+  /* color: #DEDBD2 !important; */
+  border: none;
   padding: 0.5rem 1.2rem !important;
   border-radius: 50px;
   font-weight: 600 !important;
@@ -148,6 +153,20 @@ header {
   margin-bottom: 2rem;
 }
 
+/* Login e Cadastro: header com texto escuro */
+.page-auth .nav-links a,
+.page-auth .nav-links a:visited {
+  color: #2d3319 !important;
+}
+
+.page-auth .logo span {
+  color: #2d3319 !important;
+}
+
+.page-auth .menu-toggle span {
+  background: #2d3319;
+}
+
 /* Páginas internas: botão secundário com cores escuras */
 .page-inner .nav-cta-secondary {
   color: #2d3319 !important;
@@ -159,7 +178,9 @@ header {
 
 .logo span {
   color: #DEDBD2;
+  font-size: 1.1rem;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .logo a {
@@ -256,8 +277,8 @@ header {
   border-radius: 8px;
   /* border: 2px solid #2d3319; */
   width: fit-content;
-  box-shadow: 0 0 40px rgba(166, 236, 221, 0.5),
-              0 0 80px rgba(164, 222, 213, 0.5);
+  box-shadow: 0 0 40px rgba(198, 169, 120, 0.5),
+              0 0 80px rgba(198, 169, 120, 0.3);
 }
 
 /* garante que a <img> dentro não estoure a caixa */

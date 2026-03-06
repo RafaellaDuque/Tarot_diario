@@ -1,9 +1,8 @@
 `use strict`;
 
 // ===== SELCIONANDO ELEMENTOS DO DOM - CARTA DO DIA =====
-const cardDeck = document.querySelector(".card-deck");
+const cardSlot = document.querySelector(".card-slot-1");
 const cardResultOraculo = document.querySelector(".card-result-oraculo");
-const cardResultImage = document.querySelector(".deck-image");
 const cardResultNome = document.querySelector(".card-result-nome");
 const btnReiniciar = document.querySelector(".btn-reiniciar");
 const jogoInstruction = document.querySelector(".jogo-instruction");
@@ -67,7 +66,12 @@ btnPergunta.addEventListener("click", () => {
 
 async function enviarPerguntaIA(pergunta, cartaNome, descricaoCarta) {
   try {
-    cardResultOraculo.innerHTML = '<em>Consultando os astros... aguarde.</em>';
+    cardResultOraculo.innerHTML = `
+    <div class="loading-dots">
+      <span></span><span></span><span></span>
+    </div>
+    <em>Consultando os astros...</em>
+  `;
     cardResultOraculo.classList.add("visible");
 
     const response = await fetch("/api/lercartas", {
@@ -116,7 +120,7 @@ let cartaRevelada = false;
 
 // Evento click na carta
 
-cardDeck.addEventListener("click", () => {
+cardSlot.addEventListener("click", () => {
   if (cartaRevelada) return;
 
   const carta = sortearCarta();
@@ -125,6 +129,12 @@ cardDeck.addEventListener("click", () => {
   cartaRevelada = true;
   cardResultNome.textContent = carta.nome;
 
+  const frontImg = cardSlot.querySelector(".card-front-img");
+  if (frontImg) frontImg.src = `imagens/Deck/${carta.imagem}`;
+
+  cardSlot.classList.remove("ativo");
+  cardSlot.classList.add("revelado");
+
   jogoInstruction.classList.add("hidden");
   cardResultNome.classList.add("visible");
   if (btnReiniciar) btnReiniciar.classList.add("visible");
@@ -132,8 +142,6 @@ cardDeck.addEventListener("click", () => {
   if (perguntaUsuario) {
     enviarPerguntaIA(perguntaUsuario, carta.nome, carta.descricao);
   }
-
-  cardResultImage.src = `imagens/Deck/${carta.imagem}`;
 });
 
 // ===== REINICIAR O JOGO =====

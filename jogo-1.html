@@ -46,10 +46,19 @@
         
         <!-- GAME AREA - CARTA DO DIA -->
         <div class="game-container">
-          <p class="jogo-instruction">Clique no baralho para revelar sua carta</p>
-          <div class="game-area">
-            <div class="card-deck">
-              <img src="imagens/carta_tarot_placeholder.jpg" alt="Baralho de Tarot" class="deck-image" />
+          <p class="jogo-instruction">Clique na carta para revelar</p>
+          <div class="game-area game-area-1">
+            <div class="card-slot card-slot-1 ativo" data-index="0">
+              <div class="card-flip">
+                <div class="card-flip-inner">
+                  <div class="card-face card-face-back">
+                    <img src="imagens/carta_tarot_placeholder.jpg" alt="Carta virada" />
+                  </div>
+                  <div class="card-face card-face-front">
+                    <img src="" alt="Carta" class="card-front-img" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="card-result">
